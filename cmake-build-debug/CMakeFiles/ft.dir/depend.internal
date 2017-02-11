@@ -79,6 +79,9 @@ CMakeFiles/ft.dir/ft_memset.c.o
 CMakeFiles/ft.dir/ft_print_width.c.o
  /home/serj/repos/libft/ft_print_width.c
  /home/serj/repos/libft/libft.h
+CMakeFiles/ft.dir/ft_printf.c.o
+ /home/serj/repos/libft/ft_printf.c
+ /home/serj/repos/libft/libft.h
 CMakeFiles/ft.dir/ft_putchar.c.o
  /home/serj/repos/libft/ft_putchar.c
  /home/serj/repos/libft/libft.h

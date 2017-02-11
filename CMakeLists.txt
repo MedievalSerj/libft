@@ -85,7 +85,8 @@ set(SOURCE_FILES
         validate_size.c
         wc_char.c
         ws_string.c
-        x_hex.c)
+        x_hex.c
+		ft_printf.c)
 
 add_library(ft ${SOURCE_FILES})
 target_link_libraries(ft)

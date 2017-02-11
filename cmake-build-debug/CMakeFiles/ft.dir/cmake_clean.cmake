@@ -81,6 +81,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft.dir/wc_char.c.o"
   "CMakeFiles/ft.dir/ws_string.c.o"
   "CMakeFiles/ft.dir/x_hex.c.o"
+  "CMakeFiles/ft.dir/ft_printf.c.o"
   "libft.pdb"
   "libft.a"
 )

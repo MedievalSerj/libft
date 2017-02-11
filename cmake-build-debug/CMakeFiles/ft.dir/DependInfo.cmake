@@ -32,6 +32,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/serj/repos/libft/ft_memmove.c" "/home/serj/repos/libft/cmake-build-debug/CMakeFiles/ft.dir/ft_memmove.c.o"
   "/home/serj/repos/libft/ft_memset.c" "/home/serj/repos/libft/cmake-build-debug/CMakeFiles/ft.dir/ft_memset.c.o"
   "/home/serj/repos/libft/ft_print_width.c" "/home/serj/repos/libft/cmake-build-debug/CMakeFiles/ft.dir/ft_print_width.c.o"
+  "/home/serj/repos/libft/ft_printf.c" "/home/serj/repos/libft/cmake-build-debug/CMakeFiles/ft.dir/ft_printf.c.o"
   "/home/serj/repos/libft/ft_putchar.c" "/home/serj/repos/libft/cmake-build-debug/CMakeFiles/ft.dir/ft_putchar.c.o"
   "/home/serj/repos/libft/ft_putchar_fd.c" "/home/serj/repos/libft/cmake-build-debug/CMakeFiles/ft.dir/ft_putchar_fd.c.o"
   "/home/serj/repos/libft/ft_putendl.c" "/home/serj/repos/libft/cmake-build-debug/CMakeFiles/ft.dir/ft_putendl.c.o"

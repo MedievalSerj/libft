@@ -2025,6 +2025,30 @@ CMakeFiles/ft.dir/x_hex.c.o.provides: CMakeFiles/ft.dir/x_hex.c.o.requires
 CMakeFiles/ft.dir/x_hex.c.o.provides.build: CMakeFiles/ft.dir/x_hex.c.o
 
 
+CMakeFiles/ft.dir/ft_printf.c.o: CMakeFiles/ft.dir/flags.make
+CMakeFiles/ft.dir/ft_printf.c.o: ../ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/serj/repos/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/ft.dir/ft_printf.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft.dir/ft_printf.c.o   -c /home/serj/repos/libft/ft_printf.c
+
+CMakeFiles/ft.dir/ft_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft.dir/ft_printf.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/serj/repos/libft/ft_printf.c > CMakeFiles/ft.dir/ft_printf.c.i
+
+CMakeFiles/ft.dir/ft_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft.dir/ft_printf.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/serj/repos/libft/ft_printf.c -o CMakeFiles/ft.dir/ft_printf.c.s
+
+CMakeFiles/ft.dir/ft_printf.c.o.requires:
+
+.PHONY : CMakeFiles/ft.dir/ft_printf.c.o.requires
+
+CMakeFiles/ft.dir/ft_printf.c.o.provides: CMakeFiles/ft.dir/ft_printf.c.o.requires
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf.c.o.provides.build
+.PHONY : CMakeFiles/ft.dir/ft_printf.c.o.provides
+
+CMakeFiles/ft.dir/ft_printf.c.o.provides.build: CMakeFiles/ft.dir/ft_printf.c.o
+
+
 # Object files for target ft
 ft_OBJECTS = \
 "CMakeFiles/ft.dir/ft_atoi.c.o" \
@@ -2108,7 +2132,8 @@ ft_OBJECTS = \
 "CMakeFiles/ft.dir/validate_size.c.o" \
 "CMakeFiles/ft.dir/wc_char.c.o" \
 "CMakeFiles/ft.dir/ws_string.c.o" \
-"CMakeFiles/ft.dir/x_hex.c.o"
+"CMakeFiles/ft.dir/x_hex.c.o" \
+"CMakeFiles/ft.dir/ft_printf.c.o"
 
 # External object files for target ft
 ft_EXTERNAL_OBJECTS =
@@ -2195,9 +2220,10 @@ libft.a: CMakeFiles/ft.dir/validate_size.c.o
 libft.a: CMakeFiles/ft.dir/wc_char.c.o
 libft.a: CMakeFiles/ft.dir/ws_string.c.o
 libft.a: CMakeFiles/ft.dir/x_hex.c.o
+libft.a: CMakeFiles/ft.dir/ft_printf.c.o
 libft.a: CMakeFiles/ft.dir/build.make
 libft.a: CMakeFiles/ft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/serj/repos/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking C static library libft.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/serj/repos/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking C static library libft.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/ft.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft.dir/link.txt --verbose=$(VERBOSE)
 
@@ -2288,6 +2314,7 @@ CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/validate_size.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/wc_char.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ws_string.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/x_hex.c.o.requires
+CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_printf.c.o.requires
 
 .PHONY : CMakeFiles/ft.dir/requires
 

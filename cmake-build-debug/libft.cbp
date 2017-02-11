@@ -168,6 +168,9 @@
 		<Unit filename="/home/serj/repos/libft/ft_print_width.c">
 			<Option target="ft"/>
 		</Unit>
+		<Unit filename="/home/serj/repos/libft/ft_printf.c">
+			<Option target="ft"/>
+		</Unit>
 		<Unit filename="/home/serj/repos/libft/ft_putchar.c">
 			<Option target="ft"/>
 		</Unit>

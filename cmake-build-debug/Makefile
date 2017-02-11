@@ -879,6 +879,33 @@ ft_print_width.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_print_width.c.s
 .PHONY : ft_print_width.c.s
 
+ft_printf.o: ft_printf.c.o
+
+.PHONY : ft_printf.o
+
+# target to build an object file
+ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf.c.o
+.PHONY : ft_printf.c.o
+
+ft_printf.i: ft_printf.c.i
+
+.PHONY : ft_printf.i
+
+# target to preprocess a source file
+ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf.c.i
+.PHONY : ft_printf.c.i
+
+ft_printf.s: ft_printf.c.s
+
+.PHONY : ft_printf.s
+
+# target to generate assembly for a file
+ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf.c.s
+.PHONY : ft_printf.c.s
+
 ft_putchar.o: ft_putchar.c.o
 
 .PHONY : ft_putchar.o
@@ -2430,6 +2457,9 @@ help:
 	@echo "... ft_print_width.o"
 	@echo "... ft_print_width.i"
 	@echo "... ft_print_width.s"
+	@echo "... ft_printf.o"
+	@echo "... ft_printf.i"
+	@echo "... ft_printf.s"
 	@echo "... ft_putchar.o"
 	@echo "... ft_putchar.i"
 	@echo "... ft_putchar.s"
