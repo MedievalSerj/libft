@@ -13,7 +13,19 @@
 NAME = libft.a
 SRC =   ft_atoi.c \
         ft_bzero.c \
+        ft_char_n_str.c \
+        ft_isalnum.c \
+        ft_isalpha.c \
+        ft_isascii.c \
+        ft_isdigit.c \
+        ft_isprint.c \
         ft_itoa.c \
+        ft_lstadd.c \
+        ft_lstdel.c \
+        ft_lstdelone.c \
+        ft_lstiter.c \
+        ft_lstmap.c \
+        ft_lstnew.c \
         ft_memalloc.c \
         ft_memccpy.c \
         ft_memchr.c \
@@ -22,6 +34,7 @@ SRC =   ft_atoi.c \
         ft_memdel.c \
         ft_memmove.c \
         ft_memset.c \
+        ft_print_width.c \
         ft_putchar.c \
         ft_putchar_fd.c \
         ft_putendl.c \
@@ -30,6 +43,7 @@ SRC =   ft_atoi.c \
         ft_putnbr_fd.c \
         ft_putstr.c \
         ft_putstr_fd.c \
+        ft_str_tolower.c \
         ft_strcat.c \
         ft_strchr.c \
         ft_strclr.c \
@@ -58,21 +72,28 @@ SRC =   ft_atoi.c \
         ft_strtrim.c \
         ft_tolower.c \
         ft_toupper.c \
-        ft_isalnum.c \
-        ft_isalpha.c \
-        ft_isascii.c \
-        ft_isdigit.c \
-        ft_isprint.c \
-        ft_lstnew.c \
-        ft_lstdelone.c \
-        ft_lstdel.c \
-        ft_lstadd.c \
-        ft_lstiter.c \
-        ft_lstmap.c \
         get_next_line.c \
-        ft_print_width.c \
-        ft_char_n_str.c \
-        ft_str_tolower.c
+        c_char.c \
+        d_signed_decimal.c \
+        definitions.c \
+        fill_struct.c \
+        ft_str_append.c \
+        ft_str_append_unsafe.c \
+        ft_str_hex.c \
+        ft_str_long.c \
+        ft_str_u_long.c \
+        ft_utf.c \
+        o_octal.c \
+        p_hex.c \
+        persent.c \
+        s_string.c \
+        select.c \
+        u_unsigned_decimal.c \
+        validate_size.c \
+        wc_char.c \
+        ws_string.c \
+        x_hex.c \
+		ft_printf.c
 OBJ = $(SRC:.c=.o)
 HEADER = libft.h
 CC = gcc
