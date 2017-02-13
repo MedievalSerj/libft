@@ -6,287 +6,287 @@
 
 #IncludeRegexTransform: 
 
-/home/serj/repos/libft/c_char.c
+/nfs/2016/s/sladonia/my_repo/libft/c_char.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/d_signed_decimal.c
+/nfs/2016/s/sladonia/my_repo/libft/d_signed_decimal.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/definitions.c
+/nfs/2016/s/sladonia/my_repo/libft/definitions.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/fill_struct.c
+/nfs/2016/s/sladonia/my_repo/libft/fill_struct.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_atoi.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_atoi.c
 
-/home/serj/repos/libft/ft_bzero.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_bzero.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_char_n_str.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_char_n_str.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_isalnum.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_isalnum.c
 
-/home/serj/repos/libft/ft_isalpha.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_isalpha.c
 
-/home/serj/repos/libft/ft_isascii.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_isascii.c
 
-/home/serj/repos/libft/ft_isdigit.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_isdigit.c
 
-/home/serj/repos/libft/ft_isprint.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_isprint.c
 
-/home/serj/repos/libft/ft_itoa.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_itoa.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_lstadd.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_lstadd.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_lstdel.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_lstdel.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_lstdelone.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_lstdelone.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_lstiter.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_lstiter.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_lstmap.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_lstmap.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_lstnew.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_lstnew.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memalloc.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memalloc.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memccpy.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memccpy.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memchr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memchr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memcmp.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memcmp.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memcpy.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memcpy.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memdel.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memdel.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memmove.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memmove.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_memset.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_memset.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_print_width.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_print_width.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_printf.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_printf.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putchar.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putchar.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putchar_fd.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putchar_fd.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putendl.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putendl.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putendl_fd.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putendl_fd.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putnbr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putnbr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putnbr_fd.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putnbr_fd.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putstr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putstr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_putstr_fd.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_putstr_fd.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_str_append.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_str_append.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_str_append_unsafe.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_str_append_unsafe.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_str_hex.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_str_hex.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_str_long.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_str_long.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_str_tolower.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_str_tolower.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_str_u_long.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_str_u_long.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strcat.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strcat.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strchr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strchr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strclr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strclr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strcmp.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strcmp.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strcpy.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strcpy.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strdel.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strdel.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strdup.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strdup.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strequ.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strequ.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_striter.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_striter.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_striteri.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_striteri.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strjoin.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strjoin.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strlcat.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strlcat.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strlen.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strlen.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strmap.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strmap.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strmapi.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strmapi.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strncat.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strncat.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strncmp.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strncmp.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strncpy.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strncpy.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strnequ.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strnequ.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strnew.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strnew.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strnstr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strnstr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strrchr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strrchr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strsplit.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strsplit.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strstr.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strstr.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strsub.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strsub.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_strtrim.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_strtrim.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_tolower.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_tolower.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_toupper.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_toupper.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ft_utf.c
+/nfs/2016/s/sladonia/my_repo/libft/ft_utf.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/get_next_line.c
+/nfs/2016/s/sladonia/my_repo/libft/get_next_line.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 string.h
 -
 stdlib.h
@@ -300,43 +300,43 @@ stdint.h
 wchar.h
 -
 
-/home/serj/repos/libft/o_octal.c
+/nfs/2016/s/sladonia/my_repo/libft/o_octal.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/p_hex.c
+/nfs/2016/s/sladonia/my_repo/libft/p_hex.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/persent.c
+/nfs/2016/s/sladonia/my_repo/libft/persent.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/s_string.c
+/nfs/2016/s/sladonia/my_repo/libft/s_string.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/select.c
+/nfs/2016/s/sladonia/my_repo/libft/select.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/u_unsigned_decimal.c
+/nfs/2016/s/sladonia/my_repo/libft/u_unsigned_decimal.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/validate_size.c
+/nfs/2016/s/sladonia/my_repo/libft/validate_size.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/wc_char.c
+/nfs/2016/s/sladonia/my_repo/libft/wc_char.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/ws_string.c
+/nfs/2016/s/sladonia/my_repo/libft/ws_string.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
-/home/serj/repos/libft/x_hex.c
+/nfs/2016/s/sladonia/my_repo/libft/x_hex.c
 libft.h
-/home/serj/repos/libft/libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
 
