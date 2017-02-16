@@ -202,6 +202,9 @@
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_hex.c">
 			<Option target="ft"/>
 		</Unit>
+		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_j.c">
+			<Option target="ft"/>
+		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_long.c">
 			<Option target="ft"/>
 		</Unit>

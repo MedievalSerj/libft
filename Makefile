@@ -93,7 +93,8 @@ SRC =   ft_atoi.c \
         wc_char.c \
         ws_string.c \
         x_hex.c \
-		ft_printf.c
+		ft_printf.c \
+		ft_str_j.c
 OBJ = $(SRC:.c=.o)
 HEADER = libft.h
 CC = gcc

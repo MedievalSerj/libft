@@ -1203,6 +1203,33 @@ ft_str_hex.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_hex.c.s
 .PHONY : ft_str_hex.c.s
 
+ft_str_j.o: ft_str_j.c.o
+
+.PHONY : ft_str_j.o
+
+# target to build an object file
+ft_str_j.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_j.c.o
+.PHONY : ft_str_j.c.o
+
+ft_str_j.i: ft_str_j.c.i
+
+.PHONY : ft_str_j.i
+
+# target to preprocess a source file
+ft_str_j.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_j.c.i
+.PHONY : ft_str_j.c.i
+
+ft_str_j.s: ft_str_j.c.s
+
+.PHONY : ft_str_j.s
+
+# target to generate assembly for a file
+ft_str_j.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_j.c.s
+.PHONY : ft_str_j.c.s
+
 ft_str_long.o: ft_str_long.c.o
 
 .PHONY : ft_str_long.o
@@ -2493,6 +2520,9 @@ help:
 	@echo "... ft_str_hex.o"
 	@echo "... ft_str_hex.i"
 	@echo "... ft_str_hex.s"
+	@echo "... ft_str_j.o"
+	@echo "... ft_str_j.i"
+	@echo "... ft_str_j.s"
 	@echo "... ft_str_long.o"
 	@echo "... ft_str_long.i"
 	@echo "... ft_str_long.s"

@@ -86,7 +86,8 @@ set(SOURCE_FILES
         wc_char.c
         ws_string.c
         x_hex.c
-		ft_printf.c)
+		ft_printf.c
+		ft_str_j.c)
 
 add_library(ft ${SOURCE_FILES})
 target_link_libraries(ft)

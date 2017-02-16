@@ -129,4 +129,5 @@ char				*ft_str_hex(unsigned long long n, int h, int base);
 void				o_octal(t_d_dec *val, int *n);
 t_d_dec				*init_t_d_dec(void);
 char				*encode_c(wchar_t n, int *k, int p);
+char				*ft_str_j(char *s1, char *s2, int fr);
 #endif

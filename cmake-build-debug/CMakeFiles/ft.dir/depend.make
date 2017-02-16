@@ -115,6 +115,9 @@ CMakeFiles/ft.dir/ft_str_append_unsafe.c.o: ../libft.h
 CMakeFiles/ft.dir/ft_str_hex.c.o: ../ft_str_hex.c
 CMakeFiles/ft.dir/ft_str_hex.c.o: ../libft.h
 
+CMakeFiles/ft.dir/ft_str_j.c.o: ../ft_str_j.c
+CMakeFiles/ft.dir/ft_str_j.c.o: ../libft.h
+
 CMakeFiles/ft.dir/ft_str_long.c.o: ../ft_str_long.c
 CMakeFiles/ft.dir/ft_str_long.c.o: ../libft.h
 

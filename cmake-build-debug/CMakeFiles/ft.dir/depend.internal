@@ -115,6 +115,9 @@ CMakeFiles/ft.dir/ft_str_append_unsafe.c.o
 CMakeFiles/ft.dir/ft_str_hex.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_str_hex.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
+CMakeFiles/ft.dir/ft_str_j.c.o
+ /nfs/2016/s/sladonia/my_repo/libft/ft_str_j.c
+ /nfs/2016/s/sladonia/my_repo/libft/libft.h
 CMakeFiles/ft.dir/ft_str_long.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_str_long.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
