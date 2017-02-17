@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/nfs/2016/s/sladonia/my_repo/libft/buffered_reader.c
+libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
+
 /nfs/2016/s/sladonia/my_repo/libft/c_char.c
 libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
@@ -139,6 +143,10 @@ libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 
 /nfs/2016/s/sladonia/my_repo/libft/ft_putstr_fd.c
+libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
+
+/nfs/2016/s/sladonia/my_repo/libft/ft_readline.c
 libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 
@@ -302,6 +310,8 @@ stdarg.h
 stdint.h
 -
 wchar.h
+-
+fcntl.h
 -
 
 /nfs/2016/s/sladonia/my_repo/libft/o_octal.c

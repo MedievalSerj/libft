@@ -49,4 +49,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ft.dir/DependInfo.cmake"
+  "CMakeFiles/ft_readline.dir/DependInfo.cmake"
+  "CMakeFiles/buffered_reader.dir/DependInfo.cmake"
   )

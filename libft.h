@@ -18,7 +18,8 @@
 # include <stdarg.h>
 # include <stdint.h>
 # include <wchar.h>
-# define BUFF_SIZE 2
+# include <fcntl.h>
+# define BUFF_SIZE 128
 
 typedef struct		s_list
 {
@@ -130,4 +131,7 @@ void				o_octal(t_d_dec *val, int *n);
 t_d_dec				*init_t_d_dec(void);
 char				*encode_c(wchar_t n, int *k, int p);
 char				*ft_str_j(char *s1, char *s2, int fr);
+char				*buffered_reader(int fd);
+char				*resize_buf(char *buf, int *n);
+int					ft_readline(int fd, char **line);
 #endif

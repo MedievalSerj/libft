@@ -83,6 +83,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft.dir/x_hex.c.o"
   "CMakeFiles/ft.dir/ft_printf.c.o"
   "CMakeFiles/ft.dir/ft_str_j.c.o"
+  "CMakeFiles/ft.dir/buffered_reader.c.o"
+  "CMakeFiles/ft.dir/ft_readline.c.o"
   "libft.pdb"
   "libft.a"
 )

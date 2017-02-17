@@ -2073,6 +2073,54 @@ CMakeFiles/ft.dir/ft_str_j.c.o.provides: CMakeFiles/ft.dir/ft_str_j.c.o.requires
 CMakeFiles/ft.dir/ft_str_j.c.o.provides.build: CMakeFiles/ft.dir/ft_str_j.c.o
 
 
+CMakeFiles/ft.dir/buffered_reader.c.o: CMakeFiles/ft.dir/flags.make
+CMakeFiles/ft.dir/buffered_reader.c.o: ../buffered_reader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/ft.dir/buffered_reader.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft.dir/buffered_reader.c.o   -c /nfs/2016/s/sladonia/my_repo/libft/buffered_reader.c
+
+CMakeFiles/ft.dir/buffered_reader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft.dir/buffered_reader.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/s/sladonia/my_repo/libft/buffered_reader.c > CMakeFiles/ft.dir/buffered_reader.c.i
+
+CMakeFiles/ft.dir/buffered_reader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft.dir/buffered_reader.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/s/sladonia/my_repo/libft/buffered_reader.c -o CMakeFiles/ft.dir/buffered_reader.c.s
+
+CMakeFiles/ft.dir/buffered_reader.c.o.requires:
+
+.PHONY : CMakeFiles/ft.dir/buffered_reader.c.o.requires
+
+CMakeFiles/ft.dir/buffered_reader.c.o.provides: CMakeFiles/ft.dir/buffered_reader.c.o.requires
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/buffered_reader.c.o.provides.build
+.PHONY : CMakeFiles/ft.dir/buffered_reader.c.o.provides
+
+CMakeFiles/ft.dir/buffered_reader.c.o.provides.build: CMakeFiles/ft.dir/buffered_reader.c.o
+
+
+CMakeFiles/ft.dir/ft_readline.c.o: CMakeFiles/ft.dir/flags.make
+CMakeFiles/ft.dir/ft_readline.c.o: ../ft_readline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/ft.dir/ft_readline.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft.dir/ft_readline.c.o   -c /nfs/2016/s/sladonia/my_repo/libft/ft_readline.c
+
+CMakeFiles/ft.dir/ft_readline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft.dir/ft_readline.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/s/sladonia/my_repo/libft/ft_readline.c > CMakeFiles/ft.dir/ft_readline.c.i
+
+CMakeFiles/ft.dir/ft_readline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft.dir/ft_readline.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/s/sladonia/my_repo/libft/ft_readline.c -o CMakeFiles/ft.dir/ft_readline.c.s
+
+CMakeFiles/ft.dir/ft_readline.c.o.requires:
+
+.PHONY : CMakeFiles/ft.dir/ft_readline.c.o.requires
+
+CMakeFiles/ft.dir/ft_readline.c.o.provides: CMakeFiles/ft.dir/ft_readline.c.o.requires
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_readline.c.o.provides.build
+.PHONY : CMakeFiles/ft.dir/ft_readline.c.o.provides
+
+CMakeFiles/ft.dir/ft_readline.c.o.provides.build: CMakeFiles/ft.dir/ft_readline.c.o
+
+
 # Object files for target ft
 ft_OBJECTS = \
 "CMakeFiles/ft.dir/ft_atoi.c.o" \
@@ -2158,7 +2206,9 @@ ft_OBJECTS = \
 "CMakeFiles/ft.dir/ws_string.c.o" \
 "CMakeFiles/ft.dir/x_hex.c.o" \
 "CMakeFiles/ft.dir/ft_printf.c.o" \
-"CMakeFiles/ft.dir/ft_str_j.c.o"
+"CMakeFiles/ft.dir/ft_str_j.c.o" \
+"CMakeFiles/ft.dir/buffered_reader.c.o" \
+"CMakeFiles/ft.dir/ft_readline.c.o"
 
 # External object files for target ft
 ft_EXTERNAL_OBJECTS =
@@ -2247,9 +2297,11 @@ libft.a: CMakeFiles/ft.dir/ws_string.c.o
 libft.a: CMakeFiles/ft.dir/x_hex.c.o
 libft.a: CMakeFiles/ft.dir/ft_printf.c.o
 libft.a: CMakeFiles/ft.dir/ft_str_j.c.o
+libft.a: CMakeFiles/ft.dir/buffered_reader.c.o
+libft.a: CMakeFiles/ft.dir/ft_readline.c.o
 libft.a: CMakeFiles/ft.dir/build.make
 libft.a: CMakeFiles/ft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking C static library libft.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking C static library libft.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/ft.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft.dir/link.txt --verbose=$(VERBOSE)
 
@@ -2342,6 +2394,8 @@ CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ws_string.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/x_hex.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_printf.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_str_j.c.o.requires
+CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/buffered_reader.c.o.requires
+CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_readline.c.o.requires
 
 .PHONY : CMakeFiles/ft.dir/requires
 

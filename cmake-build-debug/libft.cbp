@@ -17,26 +17,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="ft">
 				<Option output="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/libft.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
@@ -81,258 +61,544 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ft_readline">
+				<Option output="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/ft_readline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_readline"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_readline/fast">
+				<Option output="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/ft_readline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_readline/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffered_reader">
+				<Option output="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/buffered_reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 buffered_reader"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffered_reader/fast">
+				<Option output="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/buffered_reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 buffered_reader/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/buffered_reader.c">
+			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
+		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/c_char.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/d_signed_decimal.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/definitions.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/fill_struct.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_atoi.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_bzero.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_char_n_str.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_isalnum.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_isalpha.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_isascii.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_isdigit.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_isprint.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_itoa.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_lstadd.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_lstdel.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_lstdelone.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_lstiter.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_lstmap.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_lstnew.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memalloc.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memccpy.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memchr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memcmp.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memcpy.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memdel.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memmove.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_memset.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_print_width.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_printf.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putchar.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putchar_fd.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putendl.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putendl_fd.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putnbr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putnbr_fd.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putstr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_putstr_fd.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
+		</Unit>
+		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_readline.c">
+			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_append.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_append_unsafe.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_hex.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_j.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_long.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_tolower.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_str_u_long.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strcat.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strchr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strclr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strcmp.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strcpy.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strdel.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strdup.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strequ.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_striter.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_striteri.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strjoin.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strlcat.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strlen.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strmap.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strmapi.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strncat.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strncmp.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strncpy.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strnequ.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strnew.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strnstr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strrchr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strsplit.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strstr.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strsub.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_strtrim.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_tolower.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_toupper.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_utf.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/get_next_line.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/o_octal.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/p_hex.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/persent.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/s_string.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/select.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/u_unsigned_decimal.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/validate_size.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/wc_char.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ws_string.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/x_hex.c">
 			<Option target="ft"/>
+			<Option target="ft_readline"/>
+			<Option target="buffered_reader"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
