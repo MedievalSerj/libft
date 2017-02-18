@@ -1,38 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_readline.c                                      :+:      :+:    :+:   */
+/*   get_num_str.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sladonia <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/02/18 16:11:43 by sladonia          #+#    #+#             */
-/*   Updated: 2017/02/18 16:11:46 by sladonia         ###   ########.fr       */
+/*   Created: 2017/02/18 18:32:45 by sladonia          #+#    #+#             */
+/*   Updated: 2017/02/18 18:32:48 by sladonia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_readline(int fd, char **line)
+int	get_num_str(char *arg)
 {
-	char	*buf;
-	int		n;
-	int		l;
-	int		total;
+	int i;
+	int n;
+	int f;
 
-	n = BUFF_SIZE;
-	buf = ft_strnew((size_t)n);
-	total = 0;
-	while ((l = (int)read(fd, buf + total, 1)) > 0)
+	n = 0;
+	f = 1;
+	i = -1;
+	if (arg == NULL)
+		return (0);
+	while (arg[++i])
 	{
-		if (buf[total] == '\n')
-			break ;
-		total += l;
-		if (total >= (n - 2))
-			buf = resize_buf(buf, &n);
+		if (arg[i] == ' ')
+			f = 1;
+		else if (f)
+		{
+			n++;
+			f = 0;
+		}
 	}
-	if (l == -1)
-		return (-1);
-	buf[total] = '\0';
-	*line = buf;
-	return (l);
+	return (n);
 }

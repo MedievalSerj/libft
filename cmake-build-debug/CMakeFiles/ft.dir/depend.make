@@ -223,6 +223,9 @@ CMakeFiles/ft.dir/ft_utf.c.o: ../libft.h
 CMakeFiles/ft.dir/get_next_line.c.o: ../get_next_line.c
 CMakeFiles/ft.dir/get_next_line.c.o: ../libft.h
 
+CMakeFiles/ft.dir/get_num_str.c.o: ../get_num_str.c
+CMakeFiles/ft.dir/get_num_str.c.o: ../libft.h
+
 CMakeFiles/ft.dir/o_octal.c.o: ../libft.h
 CMakeFiles/ft.dir/o_octal.c.o: ../o_octal.c
 

@@ -134,4 +134,5 @@ char				*ft_str_j(char *s1, char *s2, int fr);
 char				*buffered_reader(int fd);
 char				*resize_buf(char *buf, int *n);
 int					ft_readline(int fd, char **line);
+int					get_num_str(char *arg);
 #endif

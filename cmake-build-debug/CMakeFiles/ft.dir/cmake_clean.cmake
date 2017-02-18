@@ -85,6 +85,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft.dir/ft_str_j.c.o"
   "CMakeFiles/ft.dir/buffered_reader.c.o"
   "CMakeFiles/ft.dir/ft_readline.c.o"
+  "CMakeFiles/ft.dir/get_num_str.c.o"
   "libft.pdb"
   "libft.a"
 )

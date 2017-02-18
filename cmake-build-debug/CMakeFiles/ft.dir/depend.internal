@@ -223,6 +223,9 @@ CMakeFiles/ft.dir/ft_utf.c.o
 CMakeFiles/ft.dir/get_next_line.c.o
  /nfs/2016/s/sladonia/my_repo/libft/get_next_line.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
+CMakeFiles/ft.dir/get_num_str.c.o
+ /nfs/2016/s/sladonia/my_repo/libft/get_num_str.c
+ /nfs/2016/s/sladonia/my_repo/libft/libft.h
 CMakeFiles/ft.dir/o_octal.c.o
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
  /nfs/2016/s/sladonia/my_repo/libft/o_octal.c

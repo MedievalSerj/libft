@@ -89,10 +89,8 @@ set(SOURCE_FILES
 		ft_printf.c
 		ft_str_j.c
 		buffered_reader.c
-		ft_readline.c)
-
-add_executable(buffered_reader buffered_reader.c ${SOURCE_FILES})
-add_executable(ft_readline ft_readline.c ${SOURCE_FILES})
+		ft_readline.c
+		get_num_str.c)
 
 add_library(ft ${SOURCE_FILES})
 target_link_libraries(ft)
