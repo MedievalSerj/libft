@@ -501,6 +501,33 @@ ft_itoa.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
+ft_list_dir.o: ft_list_dir.c.o
+
+.PHONY : ft_list_dir.o
+
+# target to build an object file
+ft_list_dir.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_list_dir.c.o
+.PHONY : ft_list_dir.c.o
+
+ft_list_dir.i: ft_list_dir.c.i
+
+.PHONY : ft_list_dir.i
+
+# target to preprocess a source file
+ft_list_dir.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_list_dir.c.i
+.PHONY : ft_list_dir.c.i
+
+ft_list_dir.s: ft_list_dir.c.s
+
+.PHONY : ft_list_dir.s
+
+# target to generate assembly for a file
+ft_list_dir.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_list_dir.c.s
+.PHONY : ft_list_dir.c.s
+
 ft_lstadd.o: ft_lstadd.c.o
 
 .PHONY : ft_lstadd.o
@@ -2523,6 +2550,9 @@ help:
 	@echo "... ft_itoa.o"
 	@echo "... ft_itoa.i"
 	@echo "... ft_itoa.s"
+	@echo "... ft_list_dir.o"
+	@echo "... ft_list_dir.i"
+	@echo "... ft_list_dir.s"
 	@echo "... ft_lstadd.o"
 	@echo "... ft_lstadd.i"
 	@echo "... ft_lstadd.s"

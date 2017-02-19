@@ -37,6 +37,9 @@ CMakeFiles/ft.dir/ft_isprint.c.o: ../ft_isprint.c
 CMakeFiles/ft.dir/ft_itoa.c.o: ../ft_itoa.c
 CMakeFiles/ft.dir/ft_itoa.c.o: ../libft.h
 
+CMakeFiles/ft.dir/ft_list_dir.c.o: ../ft_list_dir.c
+CMakeFiles/ft.dir/ft_list_dir.c.o: ../libft.h
+
 CMakeFiles/ft.dir/ft_lstadd.c.o: ../ft_lstadd.c
 CMakeFiles/ft.dir/ft_lstadd.c.o: ../libft.h
 

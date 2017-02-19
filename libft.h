@@ -19,6 +19,7 @@
 # include <stdint.h>
 # include <wchar.h>
 # include <fcntl.h>
+# include <dirent.h>
 # define BUFF_SIZE 128
 
 typedef struct		s_list
@@ -135,4 +136,5 @@ char				*buffered_reader(int fd);
 char				*resize_buf(char *buf, int *n);
 int					ft_readline(int fd, char **line);
 int					get_num_str(char *arg);
+t_list				*ft_list_dir(char *path);
 #endif

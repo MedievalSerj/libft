@@ -90,7 +90,8 @@ set(SOURCE_FILES
 		ft_str_j.c
 		buffered_reader.c
 		ft_readline.c
-		get_num_str.c)
+		get_num_str.c
+		ft_list_dir.c)
 
 add_library(ft ${SOURCE_FILES})
 target_link_libraries(ft)
