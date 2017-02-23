@@ -1,32 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   wc_char.c                                          :+:      :+:    :+:   */
+/*   ft_lst_print_str.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sladonia <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/01/18 20:30:25 by sladonia          #+#    #+#             */
-/*   Updated: 2017/01/18 20:30:29 by sladonia         ###   ########.fr       */
+/*   Created: 2017/01/18 18:10:07 by sladonia          #+#    #+#             */
+/*   Updated: 2017/01/18 18:10:12 by sladonia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	wc_char(t_d_dec *val, int *n)
+void	ft_lst_print_str(t_list *elem)
 {
-	char	*c;
-	int		k;
-	int		p;
-
-	p = 0;
-	c = encode_c((wchar_t)(intptr_t)val->data, &p, 4);
-	if ((k = val->width - p) > 0 && !val->minus)
-		ft_putstr(ft_char_n_str(' ', (size_t)k));
-	if (val->data)
-		ft_putstr(c);
-	else
-		ft_putchar(0);
-	if ((k = val->width - p) > 0 && val->minus)
-		ft_putstr(ft_char_n_str(' ', (size_t)k));
-	(*n) += p + (k > 0 ? k : 0);
+	if (elem)
+		ft_putstr((char*)elem);
 }

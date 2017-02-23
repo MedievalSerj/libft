@@ -137,4 +137,5 @@ char				*resize_buf(char *buf, int *n);
 int					ft_readline(int fd, char **line);
 int					get_num_str(char *arg);
 t_list				*ft_list_dir(char *path);
+void				ft_lst_print_str(t_list *elem);
 #endif
