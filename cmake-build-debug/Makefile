@@ -2229,6 +2229,168 @@ get_num_str.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/get_num_str.c.s
 .PHONY : get_num_str.c.s
 
+l_add.o: l_add.c.o
+
+.PHONY : l_add.o
+
+# target to build an object file
+l_add.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.o
+.PHONY : l_add.c.o
+
+l_add.i: l_add.c.i
+
+.PHONY : l_add.i
+
+# target to preprocess a source file
+l_add.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.i
+.PHONY : l_add.c.i
+
+l_add.s: l_add.c.s
+
+.PHONY : l_add.s
+
+# target to generate assembly for a file
+l_add.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.s
+.PHONY : l_add.c.s
+
+l_del.o: l_del.c.o
+
+.PHONY : l_del.o
+
+# target to build an object file
+l_del.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del.c.o
+.PHONY : l_del.c.o
+
+l_del.i: l_del.c.i
+
+.PHONY : l_del.i
+
+# target to preprocess a source file
+l_del.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del.c.i
+.PHONY : l_del.c.i
+
+l_del.s: l_del.c.s
+
+.PHONY : l_del.s
+
+# target to generate assembly for a file
+l_del.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del.c.s
+.PHONY : l_del.c.s
+
+l_del_all.o: l_del_all.c.o
+
+.PHONY : l_del_all.o
+
+# target to build an object file
+l_del_all.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_all.c.o
+.PHONY : l_del_all.c.o
+
+l_del_all.i: l_del_all.c.i
+
+.PHONY : l_del_all.i
+
+# target to preprocess a source file
+l_del_all.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_all.c.i
+.PHONY : l_del_all.c.i
+
+l_del_all.s: l_del_all.c.s
+
+.PHONY : l_del_all.s
+
+# target to generate assembly for a file
+l_del_all.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_all.c.s
+.PHONY : l_del_all.c.s
+
+l_del_nth.o: l_del_nth.c.o
+
+.PHONY : l_del_nth.o
+
+# target to build an object file
+l_del_nth.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_nth.c.o
+.PHONY : l_del_nth.c.o
+
+l_del_nth.i: l_del_nth.c.i
+
+.PHONY : l_del_nth.i
+
+# target to preprocess a source file
+l_del_nth.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_nth.c.i
+.PHONY : l_del_nth.c.i
+
+l_del_nth.s: l_del_nth.c.s
+
+.PHONY : l_del_nth.s
+
+# target to generate assembly for a file
+l_del_nth.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_nth.c.s
+.PHONY : l_del_nth.c.s
+
+l_get_nth.o: l_get_nth.c.o
+
+.PHONY : l_get_nth.o
+
+# target to build an object file
+l_get_nth.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_get_nth.c.o
+.PHONY : l_get_nth.c.o
+
+l_get_nth.i: l_get_nth.c.i
+
+.PHONY : l_get_nth.i
+
+# target to preprocess a source file
+l_get_nth.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_get_nth.c.i
+.PHONY : l_get_nth.c.i
+
+l_get_nth.s: l_get_nth.c.s
+
+.PHONY : l_get_nth.s
+
+# target to generate assembly for a file
+l_get_nth.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_get_nth.c.s
+.PHONY : l_get_nth.c.s
+
+l_iter.o: l_iter.c.o
+
+.PHONY : l_iter.o
+
+# target to build an object file
+l_iter.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_iter.c.o
+.PHONY : l_iter.c.o
+
+l_iter.i: l_iter.c.i
+
+.PHONY : l_iter.i
+
+# target to preprocess a source file
+l_iter.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_iter.c.i
+.PHONY : l_iter.c.i
+
+l_iter.s: l_iter.c.s
+
+.PHONY : l_iter.s
+
+# target to generate assembly for a file
+l_iter.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_iter.c.s
+.PHONY : l_iter.c.s
+
 o_octal.o: o_octal.c.o
 
 .PHONY : o_octal.o
@@ -2742,6 +2904,24 @@ help:
 	@echo "... get_num_str.o"
 	@echo "... get_num_str.i"
 	@echo "... get_num_str.s"
+	@echo "... l_add.o"
+	@echo "... l_add.i"
+	@echo "... l_add.s"
+	@echo "... l_del.o"
+	@echo "... l_del.i"
+	@echo "... l_del.s"
+	@echo "... l_del_all.o"
+	@echo "... l_del_all.i"
+	@echo "... l_del_all.s"
+	@echo "... l_del_nth.o"
+	@echo "... l_del_nth.i"
+	@echo "... l_del_nth.s"
+	@echo "... l_get_nth.o"
+	@echo "... l_get_nth.i"
+	@echo "... l_get_nth.s"
+	@echo "... l_iter.o"
+	@echo "... l_iter.i"
+	@echo "... l_iter.s"
 	@echo "... o_octal.o"
 	@echo "... o_octal.i"
 	@echo "... o_octal.s"

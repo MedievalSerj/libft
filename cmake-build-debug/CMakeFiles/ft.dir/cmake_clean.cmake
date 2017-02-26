@@ -87,6 +87,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft.dir/ft_readline.c.o"
   "CMakeFiles/ft.dir/get_num_str.c.o"
   "CMakeFiles/ft.dir/ft_list_dir.c.o"
+  "CMakeFiles/ft.dir/l_add.c.o"
+  "CMakeFiles/ft.dir/l_del.c.o"
+  "CMakeFiles/ft.dir/l_del_all.c.o"
+  "CMakeFiles/ft.dir/l_del_nth.c.o"
+  "CMakeFiles/ft.dir/l_get_nth.c.o"
+  "CMakeFiles/ft.dir/l_iter.c.o"
   "libft.pdb"
   "libft.a"
 )

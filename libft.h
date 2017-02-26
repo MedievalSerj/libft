@@ -28,6 +28,11 @@ typedef struct		s_list
 	size_t			content_size;
 	struct s_list	*next;
 }					t_list;
+typedef struct		s_lst
+{
+	void			*content;
+	struct s_lst	*next;
+}					t_lst;
 typedef struct		s_d_dec
 {
 	void			*data;
@@ -137,5 +142,10 @@ char				*resize_buf(char *buf, int *n);
 int					ft_readline(int fd, char **line);
 int					get_num_str(char *arg);
 t_list				*ft_list_dir(char *path);
-void				ft_lst_print_str(t_list *elem);
+t_lst				*l_add(t_lst *head, void *content);
+t_lst				*l_get_nth(t_lst *head, int n);
+void				l_iter(t_lst *head, void (*f)(t_lst *elem));
+void				l_del_nth(t_lst **head, int n, void (*f)(void *content));
+void				l_del_all(t_lst **head, void (*f)(void *content));
+void				l_del(t_lst **head, t_lst *this, void (*f)(void *content));
 #endif

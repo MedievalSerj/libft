@@ -229,6 +229,24 @@ CMakeFiles/ft.dir/get_next_line.c.o: ../libft.h
 CMakeFiles/ft.dir/get_num_str.c.o: ../get_num_str.c
 CMakeFiles/ft.dir/get_num_str.c.o: ../libft.h
 
+CMakeFiles/ft.dir/l_add.c.o: ../l_add.c
+CMakeFiles/ft.dir/l_add.c.o: ../libft.h
+
+CMakeFiles/ft.dir/l_del.c.o: ../l_del.c
+CMakeFiles/ft.dir/l_del.c.o: ../libft.h
+
+CMakeFiles/ft.dir/l_del_all.c.o: ../l_del_all.c
+CMakeFiles/ft.dir/l_del_all.c.o: ../libft.h
+
+CMakeFiles/ft.dir/l_del_nth.c.o: ../l_del_nth.c
+CMakeFiles/ft.dir/l_del_nth.c.o: ../libft.h
+
+CMakeFiles/ft.dir/l_get_nth.c.o: ../l_get_nth.c
+CMakeFiles/ft.dir/l_get_nth.c.o: ../libft.h
+
+CMakeFiles/ft.dir/l_iter.c.o: ../l_iter.c
+CMakeFiles/ft.dir/l_iter.c.o: ../libft.h
+
 CMakeFiles/ft.dir/o_octal.c.o: ../libft.h
 CMakeFiles/ft.dir/o_octal.c.o: ../o_octal.c
 

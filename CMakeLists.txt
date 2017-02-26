@@ -91,7 +91,13 @@ set(SOURCE_FILES
 		buffered_reader.c
 		ft_readline.c
 		get_num_str.c
-		ft_list_dir.c)
+		ft_list_dir.c
+		l_add.c
+		l_del.c
+		l_del_all.c
+		l_del_nth.c
+		l_get_nth.c
+		l_iter.c)
 
 add_library(ft ${SOURCE_FILES})
 target_link_libraries(ft)
