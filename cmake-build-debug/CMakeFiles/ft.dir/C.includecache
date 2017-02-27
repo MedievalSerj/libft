@@ -36,6 +36,10 @@ libft.h
 libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 
+/nfs/2016/s/sladonia/my_repo/libft/ft_clear_array.c
+libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
+
 /nfs/2016/s/sladonia/my_repo/libft/ft_isalnum.c
 
 /nfs/2016/s/sladonia/my_repo/libft/ft_isalpha.c
@@ -307,6 +311,10 @@ libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 
 /nfs/2016/s/sladonia/my_repo/libft/l_add.c
+libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
+
+/nfs/2016/s/sladonia/my_repo/libft/l_count.c
 libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 

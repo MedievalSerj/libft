@@ -148,4 +148,6 @@ void				l_iter(t_lst *head, void (*f)(t_lst *elem));
 void				l_del_nth(t_lst **head, int n, void (*f)(void *content));
 void				l_del_all(t_lst **head, void (*f)(void *content));
 void				l_del(t_lst **head, t_lst *this, void (*f)(void *content));
+int					l_count(t_lst *head);
+void				ft_clear_arr(char ***s);
 #endif

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/serj/IDE/clion-2016.3.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/serj/IDE/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/serj/repo/libft
+CMAKE_SOURCE_DIR = /nfs/2016/s/sladonia/my_repo/libft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/serj/repo/libft/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/serj/repo/libft/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/serj/IDE/clion-2016.3.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/serj/IDE/clion-2016.3.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/serj/repo/libft/cmake-build-debug/CMakeFiles /home/serj/repo/libft/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles /nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/serj/repo/libft/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -338,6 +338,33 @@ ft_char_n_str.s: ft_char_n_str.c.s
 ft_char_n_str.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_char_n_str.c.s
 .PHONY : ft_char_n_str.c.s
+
+ft_clear_array.o: ft_clear_array.c.o
+
+.PHONY : ft_clear_array.o
+
+# target to build an object file
+ft_clear_array.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_clear_array.c.o
+.PHONY : ft_clear_array.c.o
+
+ft_clear_array.i: ft_clear_array.c.i
+
+.PHONY : ft_clear_array.i
+
+# target to preprocess a source file
+ft_clear_array.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_clear_array.c.i
+.PHONY : ft_clear_array.c.i
+
+ft_clear_array.s: ft_clear_array.c.s
+
+.PHONY : ft_clear_array.s
+
+# target to generate assembly for a file
+ft_clear_array.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_clear_array.c.s
+.PHONY : ft_clear_array.c.s
 
 ft_isalnum.o: ft_isalnum.c.o
 
@@ -2256,6 +2283,33 @@ l_add.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.s
 .PHONY : l_add.c.s
 
+l_count.o: l_count.c.o
+
+.PHONY : l_count.o
+
+# target to build an object file
+l_count.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_count.c.o
+.PHONY : l_count.c.o
+
+l_count.i: l_count.c.i
+
+.PHONY : l_count.i
+
+# target to preprocess a source file
+l_count.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_count.c.i
+.PHONY : l_count.c.i
+
+l_count.s: l_count.c.s
+
+.PHONY : l_count.s
+
+# target to generate assembly for a file
+l_count.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_count.c.s
+.PHONY : l_count.c.s
+
 l_del.o: l_del.c.o
 
 .PHONY : l_del.o
@@ -2694,6 +2748,9 @@ help:
 	@echo "... ft_char_n_str.o"
 	@echo "... ft_char_n_str.i"
 	@echo "... ft_char_n_str.s"
+	@echo "... ft_clear_array.o"
+	@echo "... ft_clear_array.i"
+	@echo "... ft_clear_array.s"
 	@echo "... ft_isalnum.o"
 	@echo "... ft_isalnum.i"
 	@echo "... ft_isalnum.s"
@@ -2907,6 +2964,9 @@ help:
 	@echo "... l_add.o"
 	@echo "... l_add.i"
 	@echo "... l_add.s"
+	@echo "... l_count.o"
+	@echo "... l_count.i"
+	@echo "... l_count.s"
 	@echo "... l_del.o"
 	@echo "... l_del.i"
 	@echo "... l_del.s"

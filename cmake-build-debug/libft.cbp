@@ -106,6 +106,9 @@
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_char_n_str.c">
 			<Option target="ft"/>
 		</Unit>
+		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_clear_array.c">
+			<Option target="ft"/>
+		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/ft_isalnum.c">
 			<Option target="ft"/>
 		</Unit>
@@ -317,6 +320,9 @@
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/l_add.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/l_count.c">
 			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/nfs/2016/s/sladonia/my_repo/libft/l_del.c">

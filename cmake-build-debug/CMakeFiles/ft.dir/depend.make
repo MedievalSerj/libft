@@ -24,6 +24,9 @@ CMakeFiles/ft.dir/ft_bzero.c.o: ../libft.h
 CMakeFiles/ft.dir/ft_char_n_str.c.o: ../ft_char_n_str.c
 CMakeFiles/ft.dir/ft_char_n_str.c.o: ../libft.h
 
+CMakeFiles/ft.dir/ft_clear_array.c.o: ../ft_clear_array.c
+CMakeFiles/ft.dir/ft_clear_array.c.o: ../libft.h
+
 CMakeFiles/ft.dir/ft_isalnum.c.o: ../ft_isalnum.c
 
 CMakeFiles/ft.dir/ft_isalpha.c.o: ../ft_isalpha.c
@@ -231,6 +234,9 @@ CMakeFiles/ft.dir/get_num_str.c.o: ../libft.h
 
 CMakeFiles/ft.dir/l_add.c.o: ../l_add.c
 CMakeFiles/ft.dir/l_add.c.o: ../libft.h
+
+CMakeFiles/ft.dir/l_count.c.o: ../l_count.c
+CMakeFiles/ft.dir/l_count.c.o: ../libft.h
 
 CMakeFiles/ft.dir/l_del.c.o: ../l_del.c
 CMakeFiles/ft.dir/l_del.c.o: ../libft.h

@@ -97,7 +97,9 @@ set(SOURCE_FILES
 		l_del_all.c
 		l_del_nth.c
 		l_get_nth.c
-		l_iter.c)
+		l_iter.c
+		l_count.c
+		ft_clear_array.c)
 
 add_library(ft ${SOURCE_FILES})
 target_link_libraries(ft)
