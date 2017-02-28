@@ -2283,6 +2283,33 @@ l_add.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.s
 .PHONY : l_add.c.s
 
+l_add_last.o: l_add_last.c.o
+
+.PHONY : l_add_last.o
+
+# target to build an object file
+l_add_last.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add_last.c.o
+.PHONY : l_add_last.c.o
+
+l_add_last.i: l_add_last.c.i
+
+.PHONY : l_add_last.i
+
+# target to preprocess a source file
+l_add_last.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add_last.c.i
+.PHONY : l_add_last.c.i
+
+l_add_last.s: l_add_last.c.s
+
+.PHONY : l_add_last.s
+
+# target to generate assembly for a file
+l_add_last.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add_last.c.s
+.PHONY : l_add_last.c.s
+
 l_count.o: l_count.c.o
 
 .PHONY : l_count.o
@@ -2964,6 +2991,9 @@ help:
 	@echo "... l_add.o"
 	@echo "... l_add.i"
 	@echo "... l_add.s"
+	@echo "... l_add_last.o"
+	@echo "... l_add_last.i"
+	@echo "... l_add_last.s"
 	@echo "... l_count.o"
 	@echo "... l_count.i"
 	@echo "... l_count.s"

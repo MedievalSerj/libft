@@ -235,6 +235,9 @@ CMakeFiles/ft.dir/get_num_str.c.o: ../libft.h
 CMakeFiles/ft.dir/l_add.c.o: ../l_add.c
 CMakeFiles/ft.dir/l_add.c.o: ../libft.h
 
+CMakeFiles/ft.dir/l_add_last.c.o: ../l_add_last.c
+CMakeFiles/ft.dir/l_add_last.c.o: ../libft.h
+
 CMakeFiles/ft.dir/l_count.c.o: ../l_count.c
 CMakeFiles/ft.dir/l_count.c.o: ../libft.h
 

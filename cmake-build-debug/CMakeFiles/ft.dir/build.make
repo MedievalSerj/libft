@@ -2337,9 +2337,33 @@ CMakeFiles/ft.dir/l_count.c.o.provides: CMakeFiles/ft.dir/l_count.c.o.requires
 CMakeFiles/ft.dir/l_count.c.o.provides.build: CMakeFiles/ft.dir/l_count.c.o
 
 
+CMakeFiles/ft.dir/l_add_last.c.o: CMakeFiles/ft.dir/flags.make
+CMakeFiles/ft.dir/l_add_last.c.o: ../l_add_last.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/ft.dir/l_add_last.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft.dir/l_add_last.c.o   -c /nfs/2016/s/sladonia/my_repo/libft/l_add_last.c
+
+CMakeFiles/ft.dir/l_add_last.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft.dir/l_add_last.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/s/sladonia/my_repo/libft/l_add_last.c > CMakeFiles/ft.dir/l_add_last.c.i
+
+CMakeFiles/ft.dir/l_add_last.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft.dir/l_add_last.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/s/sladonia/my_repo/libft/l_add_last.c -o CMakeFiles/ft.dir/l_add_last.c.s
+
+CMakeFiles/ft.dir/l_add_last.c.o.requires:
+
+.PHONY : CMakeFiles/ft.dir/l_add_last.c.o.requires
+
+CMakeFiles/ft.dir/l_add_last.c.o.provides: CMakeFiles/ft.dir/l_add_last.c.o.requires
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add_last.c.o.provides.build
+.PHONY : CMakeFiles/ft.dir/l_add_last.c.o.provides
+
+CMakeFiles/ft.dir/l_add_last.c.o.provides.build: CMakeFiles/ft.dir/l_add_last.c.o
+
+
 CMakeFiles/ft.dir/ft_clear_array.c.o: CMakeFiles/ft.dir/flags.make
 CMakeFiles/ft.dir/ft_clear_array.c.o: ../ft_clear_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/ft.dir/ft_clear_array.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/ft.dir/ft_clear_array.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft.dir/ft_clear_array.c.o   -c /nfs/2016/s/sladonia/my_repo/libft/ft_clear_array.c
 
 CMakeFiles/ft.dir/ft_clear_array.c.i: cmake_force
@@ -2458,6 +2482,7 @@ ft_OBJECTS = \
 "CMakeFiles/ft.dir/l_get_nth.c.o" \
 "CMakeFiles/ft.dir/l_iter.c.o" \
 "CMakeFiles/ft.dir/l_count.c.o" \
+"CMakeFiles/ft.dir/l_add_last.c.o" \
 "CMakeFiles/ft.dir/ft_clear_array.c.o"
 
 # External object files for target ft
@@ -2558,10 +2583,11 @@ libft.a: CMakeFiles/ft.dir/l_del_nth.c.o
 libft.a: CMakeFiles/ft.dir/l_get_nth.c.o
 libft.a: CMakeFiles/ft.dir/l_iter.c.o
 libft.a: CMakeFiles/ft.dir/l_count.c.o
+libft.a: CMakeFiles/ft.dir/l_add_last.c.o
 libft.a: CMakeFiles/ft.dir/ft_clear_array.c.o
 libft.a: CMakeFiles/ft.dir/build.make
 libft.a: CMakeFiles/ft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Linking C static library libft.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Linking C static library libft.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/ft.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft.dir/link.txt --verbose=$(VERBOSE)
 
@@ -2665,6 +2691,7 @@ CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/l_del_nth.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/l_get_nth.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/l_iter.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/l_count.c.o.requires
+CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/l_add_last.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_clear_array.c.o.requires
 
 .PHONY : CMakeFiles/ft.dir/requires

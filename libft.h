@@ -143,6 +143,7 @@ int					ft_readline(int fd, char **line);
 int					get_num_str(char *arg);
 t_list				*ft_list_dir(char *path);
 t_lst				*l_add(t_lst *head, void *content);
+void				l_add_last(t_lst **head, void *content);
 t_lst				*l_get_nth(t_lst *head, int n);
 void				l_iter(t_lst *head, void (*f)(t_lst *elem));
 void				l_del_nth(t_lst **head, int n, void (*f)(void *content));

@@ -99,6 +99,7 @@ set(SOURCE_FILES
 		l_get_nth.c
 		l_iter.c
 		l_count.c
+		l_add_last.c
 		ft_clear_array.c)
 
 add_library(ft ${SOURCE_FILES})
