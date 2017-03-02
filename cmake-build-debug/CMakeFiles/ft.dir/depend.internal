@@ -21,6 +21,9 @@ CMakeFiles/ft.dir/ft_atoi.c.o
 CMakeFiles/ft.dir/ft_bzero.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_bzero.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
+CMakeFiles/ft.dir/ft_char_last_n.c.o
+ /nfs/2016/s/sladonia/my_repo/libft/ft_char_last_n.c
+ /nfs/2016/s/sladonia/my_repo/libft/libft.h
 CMakeFiles/ft.dir/ft_char_n_str.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_char_n_str.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h

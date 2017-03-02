@@ -21,6 +21,9 @@ CMakeFiles/ft.dir/ft_atoi.c.o: ../ft_atoi.c
 CMakeFiles/ft.dir/ft_bzero.c.o: ../ft_bzero.c
 CMakeFiles/ft.dir/ft_bzero.c.o: ../libft.h
 
+CMakeFiles/ft.dir/ft_char_last_n.c.o: ../ft_char_last_n.c
+CMakeFiles/ft.dir/ft_char_last_n.c.o: ../libft.h
+
 CMakeFiles/ft.dir/ft_char_n_str.c.o: ../ft_char_n_str.c
 CMakeFiles/ft.dir/ft_char_n_str.c.o: ../libft.h
 

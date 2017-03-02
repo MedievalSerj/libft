@@ -123,6 +123,19 @@ ft/fast:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/build
 .PHONY : ft/fast
 
+#=============================================================================
+# Target rules for targets named ft_char_last_n
+
+# Build rule for target.
+ft_char_last_n: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ft_char_last_n
+.PHONY : ft_char_last_n
+
+# fast build rule for target.
+ft_char_last_n/fast:
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/build
+.PHONY : ft_char_last_n/fast
+
 buffered_reader.o: buffered_reader.c.o
 
 .PHONY : buffered_reader.o
@@ -130,6 +143,7 @@ buffered_reader.o: buffered_reader.c.o
 # target to build an object file
 buffered_reader.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/buffered_reader.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/buffered_reader.c.o
 .PHONY : buffered_reader.c.o
 
 buffered_reader.i: buffered_reader.c.i
@@ -139,6 +153,7 @@ buffered_reader.i: buffered_reader.c.i
 # target to preprocess a source file
 buffered_reader.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/buffered_reader.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/buffered_reader.c.i
 .PHONY : buffered_reader.c.i
 
 buffered_reader.s: buffered_reader.c.s
@@ -148,6 +163,7 @@ buffered_reader.s: buffered_reader.c.s
 # target to generate assembly for a file
 buffered_reader.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/buffered_reader.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/buffered_reader.c.s
 .PHONY : buffered_reader.c.s
 
 c_char.o: c_char.c.o
@@ -157,6 +173,7 @@ c_char.o: c_char.c.o
 # target to build an object file
 c_char.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/c_char.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/c_char.c.o
 .PHONY : c_char.c.o
 
 c_char.i: c_char.c.i
@@ -166,6 +183,7 @@ c_char.i: c_char.c.i
 # target to preprocess a source file
 c_char.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/c_char.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/c_char.c.i
 .PHONY : c_char.c.i
 
 c_char.s: c_char.c.s
@@ -175,6 +193,7 @@ c_char.s: c_char.c.s
 # target to generate assembly for a file
 c_char.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/c_char.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/c_char.c.s
 .PHONY : c_char.c.s
 
 d_signed_decimal.o: d_signed_decimal.c.o
@@ -184,6 +203,7 @@ d_signed_decimal.o: d_signed_decimal.c.o
 # target to build an object file
 d_signed_decimal.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/d_signed_decimal.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/d_signed_decimal.c.o
 .PHONY : d_signed_decimal.c.o
 
 d_signed_decimal.i: d_signed_decimal.c.i
@@ -193,6 +213,7 @@ d_signed_decimal.i: d_signed_decimal.c.i
 # target to preprocess a source file
 d_signed_decimal.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/d_signed_decimal.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/d_signed_decimal.c.i
 .PHONY : d_signed_decimal.c.i
 
 d_signed_decimal.s: d_signed_decimal.c.s
@@ -202,6 +223,7 @@ d_signed_decimal.s: d_signed_decimal.c.s
 # target to generate assembly for a file
 d_signed_decimal.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/d_signed_decimal.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/d_signed_decimal.c.s
 .PHONY : d_signed_decimal.c.s
 
 definitions.o: definitions.c.o
@@ -211,6 +233,7 @@ definitions.o: definitions.c.o
 # target to build an object file
 definitions.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/definitions.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/definitions.c.o
 .PHONY : definitions.c.o
 
 definitions.i: definitions.c.i
@@ -220,6 +243,7 @@ definitions.i: definitions.c.i
 # target to preprocess a source file
 definitions.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/definitions.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/definitions.c.i
 .PHONY : definitions.c.i
 
 definitions.s: definitions.c.s
@@ -229,6 +253,7 @@ definitions.s: definitions.c.s
 # target to generate assembly for a file
 definitions.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/definitions.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/definitions.c.s
 .PHONY : definitions.c.s
 
 fill_struct.o: fill_struct.c.o
@@ -238,6 +263,7 @@ fill_struct.o: fill_struct.c.o
 # target to build an object file
 fill_struct.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/fill_struct.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/fill_struct.c.o
 .PHONY : fill_struct.c.o
 
 fill_struct.i: fill_struct.c.i
@@ -247,6 +273,7 @@ fill_struct.i: fill_struct.c.i
 # target to preprocess a source file
 fill_struct.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/fill_struct.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/fill_struct.c.i
 .PHONY : fill_struct.c.i
 
 fill_struct.s: fill_struct.c.s
@@ -256,6 +283,7 @@ fill_struct.s: fill_struct.c.s
 # target to generate assembly for a file
 fill_struct.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/fill_struct.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/fill_struct.c.s
 .PHONY : fill_struct.c.s
 
 ft_atoi.o: ft_atoi.c.o
@@ -265,6 +293,7 @@ ft_atoi.o: ft_atoi.c.o
 # target to build an object file
 ft_atoi.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_atoi.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_atoi.c.o
 .PHONY : ft_atoi.c.o
 
 ft_atoi.i: ft_atoi.c.i
@@ -274,6 +303,7 @@ ft_atoi.i: ft_atoi.c.i
 # target to preprocess a source file
 ft_atoi.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_atoi.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_atoi.c.i
 .PHONY : ft_atoi.c.i
 
 ft_atoi.s: ft_atoi.c.s
@@ -283,6 +313,7 @@ ft_atoi.s: ft_atoi.c.s
 # target to generate assembly for a file
 ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_atoi.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_atoi.c.s
 .PHONY : ft_atoi.c.s
 
 ft_bzero.o: ft_bzero.c.o
@@ -292,6 +323,7 @@ ft_bzero.o: ft_bzero.c.o
 # target to build an object file
 ft_bzero.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_bzero.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_bzero.c.o
 .PHONY : ft_bzero.c.o
 
 ft_bzero.i: ft_bzero.c.i
@@ -301,6 +333,7 @@ ft_bzero.i: ft_bzero.c.i
 # target to preprocess a source file
 ft_bzero.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_bzero.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_bzero.c.i
 .PHONY : ft_bzero.c.i
 
 ft_bzero.s: ft_bzero.c.s
@@ -310,7 +343,38 @@ ft_bzero.s: ft_bzero.c.s
 # target to generate assembly for a file
 ft_bzero.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_bzero.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_bzero.c.s
 .PHONY : ft_bzero.c.s
+
+ft_char_last_n.o: ft_char_last_n.c.o
+
+.PHONY : ft_char_last_n.o
+
+# target to build an object file
+ft_char_last_n.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_char_last_n.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_char_last_n.c.o
+.PHONY : ft_char_last_n.c.o
+
+ft_char_last_n.i: ft_char_last_n.c.i
+
+.PHONY : ft_char_last_n.i
+
+# target to preprocess a source file
+ft_char_last_n.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_char_last_n.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_char_last_n.c.i
+.PHONY : ft_char_last_n.c.i
+
+ft_char_last_n.s: ft_char_last_n.c.s
+
+.PHONY : ft_char_last_n.s
+
+# target to generate assembly for a file
+ft_char_last_n.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_char_last_n.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_char_last_n.c.s
+.PHONY : ft_char_last_n.c.s
 
 ft_char_n_str.o: ft_char_n_str.c.o
 
@@ -319,6 +383,7 @@ ft_char_n_str.o: ft_char_n_str.c.o
 # target to build an object file
 ft_char_n_str.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_char_n_str.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_char_n_str.c.o
 .PHONY : ft_char_n_str.c.o
 
 ft_char_n_str.i: ft_char_n_str.c.i
@@ -328,6 +393,7 @@ ft_char_n_str.i: ft_char_n_str.c.i
 # target to preprocess a source file
 ft_char_n_str.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_char_n_str.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_char_n_str.c.i
 .PHONY : ft_char_n_str.c.i
 
 ft_char_n_str.s: ft_char_n_str.c.s
@@ -337,6 +403,7 @@ ft_char_n_str.s: ft_char_n_str.c.s
 # target to generate assembly for a file
 ft_char_n_str.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_char_n_str.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_char_n_str.c.s
 .PHONY : ft_char_n_str.c.s
 
 ft_clear_array.o: ft_clear_array.c.o
@@ -346,6 +413,7 @@ ft_clear_array.o: ft_clear_array.c.o
 # target to build an object file
 ft_clear_array.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_clear_array.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_clear_array.c.o
 .PHONY : ft_clear_array.c.o
 
 ft_clear_array.i: ft_clear_array.c.i
@@ -355,6 +423,7 @@ ft_clear_array.i: ft_clear_array.c.i
 # target to preprocess a source file
 ft_clear_array.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_clear_array.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_clear_array.c.i
 .PHONY : ft_clear_array.c.i
 
 ft_clear_array.s: ft_clear_array.c.s
@@ -364,6 +433,7 @@ ft_clear_array.s: ft_clear_array.c.s
 # target to generate assembly for a file
 ft_clear_array.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_clear_array.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_clear_array.c.s
 .PHONY : ft_clear_array.c.s
 
 ft_isalnum.o: ft_isalnum.c.o
@@ -373,6 +443,7 @@ ft_isalnum.o: ft_isalnum.c.o
 # target to build an object file
 ft_isalnum.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isalnum.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isalnum.c.o
 .PHONY : ft_isalnum.c.o
 
 ft_isalnum.i: ft_isalnum.c.i
@@ -382,6 +453,7 @@ ft_isalnum.i: ft_isalnum.c.i
 # target to preprocess a source file
 ft_isalnum.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isalnum.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isalnum.c.i
 .PHONY : ft_isalnum.c.i
 
 ft_isalnum.s: ft_isalnum.c.s
@@ -391,6 +463,7 @@ ft_isalnum.s: ft_isalnum.c.s
 # target to generate assembly for a file
 ft_isalnum.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isalnum.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isalnum.c.s
 .PHONY : ft_isalnum.c.s
 
 ft_isalpha.o: ft_isalpha.c.o
@@ -400,6 +473,7 @@ ft_isalpha.o: ft_isalpha.c.o
 # target to build an object file
 ft_isalpha.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isalpha.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isalpha.c.o
 .PHONY : ft_isalpha.c.o
 
 ft_isalpha.i: ft_isalpha.c.i
@@ -409,6 +483,7 @@ ft_isalpha.i: ft_isalpha.c.i
 # target to preprocess a source file
 ft_isalpha.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isalpha.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isalpha.c.i
 .PHONY : ft_isalpha.c.i
 
 ft_isalpha.s: ft_isalpha.c.s
@@ -418,6 +493,7 @@ ft_isalpha.s: ft_isalpha.c.s
 # target to generate assembly for a file
 ft_isalpha.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isalpha.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isalpha.c.s
 .PHONY : ft_isalpha.c.s
 
 ft_isascii.o: ft_isascii.c.o
@@ -427,6 +503,7 @@ ft_isascii.o: ft_isascii.c.o
 # target to build an object file
 ft_isascii.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isascii.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isascii.c.o
 .PHONY : ft_isascii.c.o
 
 ft_isascii.i: ft_isascii.c.i
@@ -436,6 +513,7 @@ ft_isascii.i: ft_isascii.c.i
 # target to preprocess a source file
 ft_isascii.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isascii.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isascii.c.i
 .PHONY : ft_isascii.c.i
 
 ft_isascii.s: ft_isascii.c.s
@@ -445,6 +523,7 @@ ft_isascii.s: ft_isascii.c.s
 # target to generate assembly for a file
 ft_isascii.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isascii.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isascii.c.s
 .PHONY : ft_isascii.c.s
 
 ft_isdigit.o: ft_isdigit.c.o
@@ -454,6 +533,7 @@ ft_isdigit.o: ft_isdigit.c.o
 # target to build an object file
 ft_isdigit.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isdigit.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isdigit.c.o
 .PHONY : ft_isdigit.c.o
 
 ft_isdigit.i: ft_isdigit.c.i
@@ -463,6 +543,7 @@ ft_isdigit.i: ft_isdigit.c.i
 # target to preprocess a source file
 ft_isdigit.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isdigit.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isdigit.c.i
 .PHONY : ft_isdigit.c.i
 
 ft_isdigit.s: ft_isdigit.c.s
@@ -472,6 +553,7 @@ ft_isdigit.s: ft_isdigit.c.s
 # target to generate assembly for a file
 ft_isdigit.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isdigit.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isdigit.c.s
 .PHONY : ft_isdigit.c.s
 
 ft_isprint.o: ft_isprint.c.o
@@ -481,6 +563,7 @@ ft_isprint.o: ft_isprint.c.o
 # target to build an object file
 ft_isprint.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isprint.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isprint.c.o
 .PHONY : ft_isprint.c.o
 
 ft_isprint.i: ft_isprint.c.i
@@ -490,6 +573,7 @@ ft_isprint.i: ft_isprint.c.i
 # target to preprocess a source file
 ft_isprint.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isprint.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isprint.c.i
 .PHONY : ft_isprint.c.i
 
 ft_isprint.s: ft_isprint.c.s
@@ -499,6 +583,7 @@ ft_isprint.s: ft_isprint.c.s
 # target to generate assembly for a file
 ft_isprint.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_isprint.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_isprint.c.s
 .PHONY : ft_isprint.c.s
 
 ft_itoa.o: ft_itoa.c.o
@@ -508,6 +593,7 @@ ft_itoa.o: ft_itoa.c.o
 # target to build an object file
 ft_itoa.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_itoa.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_itoa.c.o
 .PHONY : ft_itoa.c.o
 
 ft_itoa.i: ft_itoa.c.i
@@ -517,6 +603,7 @@ ft_itoa.i: ft_itoa.c.i
 # target to preprocess a source file
 ft_itoa.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_itoa.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_itoa.c.i
 .PHONY : ft_itoa.c.i
 
 ft_itoa.s: ft_itoa.c.s
@@ -526,6 +613,7 @@ ft_itoa.s: ft_itoa.c.s
 # target to generate assembly for a file
 ft_itoa.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_itoa.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
 ft_list_dir.o: ft_list_dir.c.o
@@ -535,6 +623,7 @@ ft_list_dir.o: ft_list_dir.c.o
 # target to build an object file
 ft_list_dir.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_list_dir.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_list_dir.c.o
 .PHONY : ft_list_dir.c.o
 
 ft_list_dir.i: ft_list_dir.c.i
@@ -544,6 +633,7 @@ ft_list_dir.i: ft_list_dir.c.i
 # target to preprocess a source file
 ft_list_dir.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_list_dir.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_list_dir.c.i
 .PHONY : ft_list_dir.c.i
 
 ft_list_dir.s: ft_list_dir.c.s
@@ -553,6 +643,7 @@ ft_list_dir.s: ft_list_dir.c.s
 # target to generate assembly for a file
 ft_list_dir.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_list_dir.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_list_dir.c.s
 .PHONY : ft_list_dir.c.s
 
 ft_lstadd.o: ft_lstadd.c.o
@@ -562,6 +653,7 @@ ft_lstadd.o: ft_lstadd.c.o
 # target to build an object file
 ft_lstadd.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstadd.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstadd.c.o
 .PHONY : ft_lstadd.c.o
 
 ft_lstadd.i: ft_lstadd.c.i
@@ -571,6 +663,7 @@ ft_lstadd.i: ft_lstadd.c.i
 # target to preprocess a source file
 ft_lstadd.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstadd.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstadd.c.i
 .PHONY : ft_lstadd.c.i
 
 ft_lstadd.s: ft_lstadd.c.s
@@ -580,6 +673,7 @@ ft_lstadd.s: ft_lstadd.c.s
 # target to generate assembly for a file
 ft_lstadd.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstadd.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstadd.c.s
 .PHONY : ft_lstadd.c.s
 
 ft_lstdel.o: ft_lstdel.c.o
@@ -589,6 +683,7 @@ ft_lstdel.o: ft_lstdel.c.o
 # target to build an object file
 ft_lstdel.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstdel.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstdel.c.o
 .PHONY : ft_lstdel.c.o
 
 ft_lstdel.i: ft_lstdel.c.i
@@ -598,6 +693,7 @@ ft_lstdel.i: ft_lstdel.c.i
 # target to preprocess a source file
 ft_lstdel.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstdel.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstdel.c.i
 .PHONY : ft_lstdel.c.i
 
 ft_lstdel.s: ft_lstdel.c.s
@@ -607,6 +703,7 @@ ft_lstdel.s: ft_lstdel.c.s
 # target to generate assembly for a file
 ft_lstdel.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstdel.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstdel.c.s
 .PHONY : ft_lstdel.c.s
 
 ft_lstdelone.o: ft_lstdelone.c.o
@@ -616,6 +713,7 @@ ft_lstdelone.o: ft_lstdelone.c.o
 # target to build an object file
 ft_lstdelone.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstdelone.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstdelone.c.o
 .PHONY : ft_lstdelone.c.o
 
 ft_lstdelone.i: ft_lstdelone.c.i
@@ -625,6 +723,7 @@ ft_lstdelone.i: ft_lstdelone.c.i
 # target to preprocess a source file
 ft_lstdelone.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstdelone.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstdelone.c.i
 .PHONY : ft_lstdelone.c.i
 
 ft_lstdelone.s: ft_lstdelone.c.s
@@ -634,6 +733,7 @@ ft_lstdelone.s: ft_lstdelone.c.s
 # target to generate assembly for a file
 ft_lstdelone.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstdelone.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstdelone.c.s
 .PHONY : ft_lstdelone.c.s
 
 ft_lstiter.o: ft_lstiter.c.o
@@ -643,6 +743,7 @@ ft_lstiter.o: ft_lstiter.c.o
 # target to build an object file
 ft_lstiter.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstiter.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstiter.c.o
 .PHONY : ft_lstiter.c.o
 
 ft_lstiter.i: ft_lstiter.c.i
@@ -652,6 +753,7 @@ ft_lstiter.i: ft_lstiter.c.i
 # target to preprocess a source file
 ft_lstiter.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstiter.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstiter.c.i
 .PHONY : ft_lstiter.c.i
 
 ft_lstiter.s: ft_lstiter.c.s
@@ -661,6 +763,7 @@ ft_lstiter.s: ft_lstiter.c.s
 # target to generate assembly for a file
 ft_lstiter.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstiter.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstiter.c.s
 .PHONY : ft_lstiter.c.s
 
 ft_lstmap.o: ft_lstmap.c.o
@@ -670,6 +773,7 @@ ft_lstmap.o: ft_lstmap.c.o
 # target to build an object file
 ft_lstmap.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstmap.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstmap.c.o
 .PHONY : ft_lstmap.c.o
 
 ft_lstmap.i: ft_lstmap.c.i
@@ -679,6 +783,7 @@ ft_lstmap.i: ft_lstmap.c.i
 # target to preprocess a source file
 ft_lstmap.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstmap.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstmap.c.i
 .PHONY : ft_lstmap.c.i
 
 ft_lstmap.s: ft_lstmap.c.s
@@ -688,6 +793,7 @@ ft_lstmap.s: ft_lstmap.c.s
 # target to generate assembly for a file
 ft_lstmap.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstmap.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstmap.c.s
 .PHONY : ft_lstmap.c.s
 
 ft_lstnew.o: ft_lstnew.c.o
@@ -697,6 +803,7 @@ ft_lstnew.o: ft_lstnew.c.o
 # target to build an object file
 ft_lstnew.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstnew.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstnew.c.o
 .PHONY : ft_lstnew.c.o
 
 ft_lstnew.i: ft_lstnew.c.i
@@ -706,6 +813,7 @@ ft_lstnew.i: ft_lstnew.c.i
 # target to preprocess a source file
 ft_lstnew.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstnew.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstnew.c.i
 .PHONY : ft_lstnew.c.i
 
 ft_lstnew.s: ft_lstnew.c.s
@@ -715,6 +823,7 @@ ft_lstnew.s: ft_lstnew.c.s
 # target to generate assembly for a file
 ft_lstnew.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lstnew.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_lstnew.c.s
 .PHONY : ft_lstnew.c.s
 
 ft_memalloc.o: ft_memalloc.c.o
@@ -724,6 +833,7 @@ ft_memalloc.o: ft_memalloc.c.o
 # target to build an object file
 ft_memalloc.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memalloc.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memalloc.c.o
 .PHONY : ft_memalloc.c.o
 
 ft_memalloc.i: ft_memalloc.c.i
@@ -733,6 +843,7 @@ ft_memalloc.i: ft_memalloc.c.i
 # target to preprocess a source file
 ft_memalloc.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memalloc.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memalloc.c.i
 .PHONY : ft_memalloc.c.i
 
 ft_memalloc.s: ft_memalloc.c.s
@@ -742,6 +853,7 @@ ft_memalloc.s: ft_memalloc.c.s
 # target to generate assembly for a file
 ft_memalloc.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memalloc.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memalloc.c.s
 .PHONY : ft_memalloc.c.s
 
 ft_memccpy.o: ft_memccpy.c.o
@@ -751,6 +863,7 @@ ft_memccpy.o: ft_memccpy.c.o
 # target to build an object file
 ft_memccpy.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memccpy.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memccpy.c.o
 .PHONY : ft_memccpy.c.o
 
 ft_memccpy.i: ft_memccpy.c.i
@@ -760,6 +873,7 @@ ft_memccpy.i: ft_memccpy.c.i
 # target to preprocess a source file
 ft_memccpy.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memccpy.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memccpy.c.i
 .PHONY : ft_memccpy.c.i
 
 ft_memccpy.s: ft_memccpy.c.s
@@ -769,6 +883,7 @@ ft_memccpy.s: ft_memccpy.c.s
 # target to generate assembly for a file
 ft_memccpy.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memccpy.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memccpy.c.s
 .PHONY : ft_memccpy.c.s
 
 ft_memchr.o: ft_memchr.c.o
@@ -778,6 +893,7 @@ ft_memchr.o: ft_memchr.c.o
 # target to build an object file
 ft_memchr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memchr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memchr.c.o
 .PHONY : ft_memchr.c.o
 
 ft_memchr.i: ft_memchr.c.i
@@ -787,6 +903,7 @@ ft_memchr.i: ft_memchr.c.i
 # target to preprocess a source file
 ft_memchr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memchr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memchr.c.i
 .PHONY : ft_memchr.c.i
 
 ft_memchr.s: ft_memchr.c.s
@@ -796,6 +913,7 @@ ft_memchr.s: ft_memchr.c.s
 # target to generate assembly for a file
 ft_memchr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memchr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memchr.c.s
 .PHONY : ft_memchr.c.s
 
 ft_memcmp.o: ft_memcmp.c.o
@@ -805,6 +923,7 @@ ft_memcmp.o: ft_memcmp.c.o
 # target to build an object file
 ft_memcmp.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memcmp.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memcmp.c.o
 .PHONY : ft_memcmp.c.o
 
 ft_memcmp.i: ft_memcmp.c.i
@@ -814,6 +933,7 @@ ft_memcmp.i: ft_memcmp.c.i
 # target to preprocess a source file
 ft_memcmp.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memcmp.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memcmp.c.i
 .PHONY : ft_memcmp.c.i
 
 ft_memcmp.s: ft_memcmp.c.s
@@ -823,6 +943,7 @@ ft_memcmp.s: ft_memcmp.c.s
 # target to generate assembly for a file
 ft_memcmp.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memcmp.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memcmp.c.s
 .PHONY : ft_memcmp.c.s
 
 ft_memcpy.o: ft_memcpy.c.o
@@ -832,6 +953,7 @@ ft_memcpy.o: ft_memcpy.c.o
 # target to build an object file
 ft_memcpy.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memcpy.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memcpy.c.o
 .PHONY : ft_memcpy.c.o
 
 ft_memcpy.i: ft_memcpy.c.i
@@ -841,6 +963,7 @@ ft_memcpy.i: ft_memcpy.c.i
 # target to preprocess a source file
 ft_memcpy.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memcpy.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memcpy.c.i
 .PHONY : ft_memcpy.c.i
 
 ft_memcpy.s: ft_memcpy.c.s
@@ -850,6 +973,7 @@ ft_memcpy.s: ft_memcpy.c.s
 # target to generate assembly for a file
 ft_memcpy.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memcpy.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memcpy.c.s
 .PHONY : ft_memcpy.c.s
 
 ft_memdel.o: ft_memdel.c.o
@@ -859,6 +983,7 @@ ft_memdel.o: ft_memdel.c.o
 # target to build an object file
 ft_memdel.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memdel.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memdel.c.o
 .PHONY : ft_memdel.c.o
 
 ft_memdel.i: ft_memdel.c.i
@@ -868,6 +993,7 @@ ft_memdel.i: ft_memdel.c.i
 # target to preprocess a source file
 ft_memdel.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memdel.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memdel.c.i
 .PHONY : ft_memdel.c.i
 
 ft_memdel.s: ft_memdel.c.s
@@ -877,6 +1003,7 @@ ft_memdel.s: ft_memdel.c.s
 # target to generate assembly for a file
 ft_memdel.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memdel.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memdel.c.s
 .PHONY : ft_memdel.c.s
 
 ft_memmove.o: ft_memmove.c.o
@@ -886,6 +1013,7 @@ ft_memmove.o: ft_memmove.c.o
 # target to build an object file
 ft_memmove.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memmove.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memmove.c.o
 .PHONY : ft_memmove.c.o
 
 ft_memmove.i: ft_memmove.c.i
@@ -895,6 +1023,7 @@ ft_memmove.i: ft_memmove.c.i
 # target to preprocess a source file
 ft_memmove.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memmove.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memmove.c.i
 .PHONY : ft_memmove.c.i
 
 ft_memmove.s: ft_memmove.c.s
@@ -904,6 +1033,7 @@ ft_memmove.s: ft_memmove.c.s
 # target to generate assembly for a file
 ft_memmove.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memmove.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memmove.c.s
 .PHONY : ft_memmove.c.s
 
 ft_memset.o: ft_memset.c.o
@@ -913,6 +1043,7 @@ ft_memset.o: ft_memset.c.o
 # target to build an object file
 ft_memset.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memset.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memset.c.o
 .PHONY : ft_memset.c.o
 
 ft_memset.i: ft_memset.c.i
@@ -922,6 +1053,7 @@ ft_memset.i: ft_memset.c.i
 # target to preprocess a source file
 ft_memset.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memset.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memset.c.i
 .PHONY : ft_memset.c.i
 
 ft_memset.s: ft_memset.c.s
@@ -931,6 +1063,7 @@ ft_memset.s: ft_memset.c.s
 # target to generate assembly for a file
 ft_memset.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_memset.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_memset.c.s
 .PHONY : ft_memset.c.s
 
 ft_print_width.o: ft_print_width.c.o
@@ -940,6 +1073,7 @@ ft_print_width.o: ft_print_width.c.o
 # target to build an object file
 ft_print_width.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_print_width.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_print_width.c.o
 .PHONY : ft_print_width.c.o
 
 ft_print_width.i: ft_print_width.c.i
@@ -949,6 +1083,7 @@ ft_print_width.i: ft_print_width.c.i
 # target to preprocess a source file
 ft_print_width.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_print_width.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_print_width.c.i
 .PHONY : ft_print_width.c.i
 
 ft_print_width.s: ft_print_width.c.s
@@ -958,6 +1093,7 @@ ft_print_width.s: ft_print_width.c.s
 # target to generate assembly for a file
 ft_print_width.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_print_width.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_print_width.c.s
 .PHONY : ft_print_width.c.s
 
 ft_printf.o: ft_printf.c.o
@@ -967,6 +1103,7 @@ ft_printf.o: ft_printf.c.o
 # target to build an object file
 ft_printf.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_printf.c.o
 .PHONY : ft_printf.c.o
 
 ft_printf.i: ft_printf.c.i
@@ -976,6 +1113,7 @@ ft_printf.i: ft_printf.c.i
 # target to preprocess a source file
 ft_printf.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_printf.c.i
 .PHONY : ft_printf.c.i
 
 ft_printf.s: ft_printf.c.s
@@ -985,6 +1123,7 @@ ft_printf.s: ft_printf.c.s
 # target to generate assembly for a file
 ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
 
 ft_putchar.o: ft_putchar.c.o
@@ -994,6 +1133,7 @@ ft_putchar.o: ft_putchar.c.o
 # target to build an object file
 ft_putchar.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putchar.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putchar.c.o
 .PHONY : ft_putchar.c.o
 
 ft_putchar.i: ft_putchar.c.i
@@ -1003,6 +1143,7 @@ ft_putchar.i: ft_putchar.c.i
 # target to preprocess a source file
 ft_putchar.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putchar.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putchar.c.i
 .PHONY : ft_putchar.c.i
 
 ft_putchar.s: ft_putchar.c.s
@@ -1012,6 +1153,7 @@ ft_putchar.s: ft_putchar.c.s
 # target to generate assembly for a file
 ft_putchar.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putchar.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putchar.c.s
 .PHONY : ft_putchar.c.s
 
 ft_putchar_fd.o: ft_putchar_fd.c.o
@@ -1021,6 +1163,7 @@ ft_putchar_fd.o: ft_putchar_fd.c.o
 # target to build an object file
 ft_putchar_fd.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putchar_fd.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putchar_fd.c.o
 .PHONY : ft_putchar_fd.c.o
 
 ft_putchar_fd.i: ft_putchar_fd.c.i
@@ -1030,6 +1173,7 @@ ft_putchar_fd.i: ft_putchar_fd.c.i
 # target to preprocess a source file
 ft_putchar_fd.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putchar_fd.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putchar_fd.c.i
 .PHONY : ft_putchar_fd.c.i
 
 ft_putchar_fd.s: ft_putchar_fd.c.s
@@ -1039,6 +1183,7 @@ ft_putchar_fd.s: ft_putchar_fd.c.s
 # target to generate assembly for a file
 ft_putchar_fd.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putchar_fd.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putchar_fd.c.s
 .PHONY : ft_putchar_fd.c.s
 
 ft_putendl.o: ft_putendl.c.o
@@ -1048,6 +1193,7 @@ ft_putendl.o: ft_putendl.c.o
 # target to build an object file
 ft_putendl.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putendl.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putendl.c.o
 .PHONY : ft_putendl.c.o
 
 ft_putendl.i: ft_putendl.c.i
@@ -1057,6 +1203,7 @@ ft_putendl.i: ft_putendl.c.i
 # target to preprocess a source file
 ft_putendl.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putendl.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putendl.c.i
 .PHONY : ft_putendl.c.i
 
 ft_putendl.s: ft_putendl.c.s
@@ -1066,6 +1213,7 @@ ft_putendl.s: ft_putendl.c.s
 # target to generate assembly for a file
 ft_putendl.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putendl.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putendl.c.s
 .PHONY : ft_putendl.c.s
 
 ft_putendl_fd.o: ft_putendl_fd.c.o
@@ -1075,6 +1223,7 @@ ft_putendl_fd.o: ft_putendl_fd.c.o
 # target to build an object file
 ft_putendl_fd.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putendl_fd.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putendl_fd.c.o
 .PHONY : ft_putendl_fd.c.o
 
 ft_putendl_fd.i: ft_putendl_fd.c.i
@@ -1084,6 +1233,7 @@ ft_putendl_fd.i: ft_putendl_fd.c.i
 # target to preprocess a source file
 ft_putendl_fd.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putendl_fd.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putendl_fd.c.i
 .PHONY : ft_putendl_fd.c.i
 
 ft_putendl_fd.s: ft_putendl_fd.c.s
@@ -1093,6 +1243,7 @@ ft_putendl_fd.s: ft_putendl_fd.c.s
 # target to generate assembly for a file
 ft_putendl_fd.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putendl_fd.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putendl_fd.c.s
 .PHONY : ft_putendl_fd.c.s
 
 ft_putnbr.o: ft_putnbr.c.o
@@ -1102,6 +1253,7 @@ ft_putnbr.o: ft_putnbr.c.o
 # target to build an object file
 ft_putnbr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putnbr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putnbr.c.o
 .PHONY : ft_putnbr.c.o
 
 ft_putnbr.i: ft_putnbr.c.i
@@ -1111,6 +1263,7 @@ ft_putnbr.i: ft_putnbr.c.i
 # target to preprocess a source file
 ft_putnbr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putnbr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putnbr.c.i
 .PHONY : ft_putnbr.c.i
 
 ft_putnbr.s: ft_putnbr.c.s
@@ -1120,6 +1273,7 @@ ft_putnbr.s: ft_putnbr.c.s
 # target to generate assembly for a file
 ft_putnbr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putnbr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putnbr.c.s
 .PHONY : ft_putnbr.c.s
 
 ft_putnbr_fd.o: ft_putnbr_fd.c.o
@@ -1129,6 +1283,7 @@ ft_putnbr_fd.o: ft_putnbr_fd.c.o
 # target to build an object file
 ft_putnbr_fd.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putnbr_fd.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putnbr_fd.c.o
 .PHONY : ft_putnbr_fd.c.o
 
 ft_putnbr_fd.i: ft_putnbr_fd.c.i
@@ -1138,6 +1293,7 @@ ft_putnbr_fd.i: ft_putnbr_fd.c.i
 # target to preprocess a source file
 ft_putnbr_fd.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putnbr_fd.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putnbr_fd.c.i
 .PHONY : ft_putnbr_fd.c.i
 
 ft_putnbr_fd.s: ft_putnbr_fd.c.s
@@ -1147,6 +1303,7 @@ ft_putnbr_fd.s: ft_putnbr_fd.c.s
 # target to generate assembly for a file
 ft_putnbr_fd.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putnbr_fd.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putnbr_fd.c.s
 .PHONY : ft_putnbr_fd.c.s
 
 ft_putstr.o: ft_putstr.c.o
@@ -1156,6 +1313,7 @@ ft_putstr.o: ft_putstr.c.o
 # target to build an object file
 ft_putstr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putstr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putstr.c.o
 .PHONY : ft_putstr.c.o
 
 ft_putstr.i: ft_putstr.c.i
@@ -1165,6 +1323,7 @@ ft_putstr.i: ft_putstr.c.i
 # target to preprocess a source file
 ft_putstr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putstr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putstr.c.i
 .PHONY : ft_putstr.c.i
 
 ft_putstr.s: ft_putstr.c.s
@@ -1174,6 +1333,7 @@ ft_putstr.s: ft_putstr.c.s
 # target to generate assembly for a file
 ft_putstr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putstr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putstr.c.s
 .PHONY : ft_putstr.c.s
 
 ft_putstr_fd.o: ft_putstr_fd.c.o
@@ -1183,6 +1343,7 @@ ft_putstr_fd.o: ft_putstr_fd.c.o
 # target to build an object file
 ft_putstr_fd.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putstr_fd.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putstr_fd.c.o
 .PHONY : ft_putstr_fd.c.o
 
 ft_putstr_fd.i: ft_putstr_fd.c.i
@@ -1192,6 +1353,7 @@ ft_putstr_fd.i: ft_putstr_fd.c.i
 # target to preprocess a source file
 ft_putstr_fd.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putstr_fd.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putstr_fd.c.i
 .PHONY : ft_putstr_fd.c.i
 
 ft_putstr_fd.s: ft_putstr_fd.c.s
@@ -1201,6 +1363,7 @@ ft_putstr_fd.s: ft_putstr_fd.c.s
 # target to generate assembly for a file
 ft_putstr_fd.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_putstr_fd.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_putstr_fd.c.s
 .PHONY : ft_putstr_fd.c.s
 
 ft_readline.o: ft_readline.c.o
@@ -1210,6 +1373,7 @@ ft_readline.o: ft_readline.c.o
 # target to build an object file
 ft_readline.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_readline.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_readline.c.o
 .PHONY : ft_readline.c.o
 
 ft_readline.i: ft_readline.c.i
@@ -1219,6 +1383,7 @@ ft_readline.i: ft_readline.c.i
 # target to preprocess a source file
 ft_readline.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_readline.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_readline.c.i
 .PHONY : ft_readline.c.i
 
 ft_readline.s: ft_readline.c.s
@@ -1228,6 +1393,7 @@ ft_readline.s: ft_readline.c.s
 # target to generate assembly for a file
 ft_readline.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_readline.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_readline.c.s
 .PHONY : ft_readline.c.s
 
 ft_str_append.o: ft_str_append.c.o
@@ -1237,6 +1403,7 @@ ft_str_append.o: ft_str_append.c.o
 # target to build an object file
 ft_str_append.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_append.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_append.c.o
 .PHONY : ft_str_append.c.o
 
 ft_str_append.i: ft_str_append.c.i
@@ -1246,6 +1413,7 @@ ft_str_append.i: ft_str_append.c.i
 # target to preprocess a source file
 ft_str_append.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_append.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_append.c.i
 .PHONY : ft_str_append.c.i
 
 ft_str_append.s: ft_str_append.c.s
@@ -1255,6 +1423,7 @@ ft_str_append.s: ft_str_append.c.s
 # target to generate assembly for a file
 ft_str_append.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_append.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_append.c.s
 .PHONY : ft_str_append.c.s
 
 ft_str_append_unsafe.o: ft_str_append_unsafe.c.o
@@ -1264,6 +1433,7 @@ ft_str_append_unsafe.o: ft_str_append_unsafe.c.o
 # target to build an object file
 ft_str_append_unsafe.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_append_unsafe.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_append_unsafe.c.o
 .PHONY : ft_str_append_unsafe.c.o
 
 ft_str_append_unsafe.i: ft_str_append_unsafe.c.i
@@ -1273,6 +1443,7 @@ ft_str_append_unsafe.i: ft_str_append_unsafe.c.i
 # target to preprocess a source file
 ft_str_append_unsafe.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_append_unsafe.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_append_unsafe.c.i
 .PHONY : ft_str_append_unsafe.c.i
 
 ft_str_append_unsafe.s: ft_str_append_unsafe.c.s
@@ -1282,6 +1453,7 @@ ft_str_append_unsafe.s: ft_str_append_unsafe.c.s
 # target to generate assembly for a file
 ft_str_append_unsafe.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_append_unsafe.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_append_unsafe.c.s
 .PHONY : ft_str_append_unsafe.c.s
 
 ft_str_hex.o: ft_str_hex.c.o
@@ -1291,6 +1463,7 @@ ft_str_hex.o: ft_str_hex.c.o
 # target to build an object file
 ft_str_hex.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_hex.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_hex.c.o
 .PHONY : ft_str_hex.c.o
 
 ft_str_hex.i: ft_str_hex.c.i
@@ -1300,6 +1473,7 @@ ft_str_hex.i: ft_str_hex.c.i
 # target to preprocess a source file
 ft_str_hex.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_hex.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_hex.c.i
 .PHONY : ft_str_hex.c.i
 
 ft_str_hex.s: ft_str_hex.c.s
@@ -1309,6 +1483,7 @@ ft_str_hex.s: ft_str_hex.c.s
 # target to generate assembly for a file
 ft_str_hex.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_hex.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_hex.c.s
 .PHONY : ft_str_hex.c.s
 
 ft_str_j.o: ft_str_j.c.o
@@ -1318,6 +1493,7 @@ ft_str_j.o: ft_str_j.c.o
 # target to build an object file
 ft_str_j.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_j.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_j.c.o
 .PHONY : ft_str_j.c.o
 
 ft_str_j.i: ft_str_j.c.i
@@ -1327,6 +1503,7 @@ ft_str_j.i: ft_str_j.c.i
 # target to preprocess a source file
 ft_str_j.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_j.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_j.c.i
 .PHONY : ft_str_j.c.i
 
 ft_str_j.s: ft_str_j.c.s
@@ -1336,6 +1513,7 @@ ft_str_j.s: ft_str_j.c.s
 # target to generate assembly for a file
 ft_str_j.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_j.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_j.c.s
 .PHONY : ft_str_j.c.s
 
 ft_str_long.o: ft_str_long.c.o
@@ -1345,6 +1523,7 @@ ft_str_long.o: ft_str_long.c.o
 # target to build an object file
 ft_str_long.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_long.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_long.c.o
 .PHONY : ft_str_long.c.o
 
 ft_str_long.i: ft_str_long.c.i
@@ -1354,6 +1533,7 @@ ft_str_long.i: ft_str_long.c.i
 # target to preprocess a source file
 ft_str_long.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_long.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_long.c.i
 .PHONY : ft_str_long.c.i
 
 ft_str_long.s: ft_str_long.c.s
@@ -1363,6 +1543,7 @@ ft_str_long.s: ft_str_long.c.s
 # target to generate assembly for a file
 ft_str_long.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_long.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_long.c.s
 .PHONY : ft_str_long.c.s
 
 ft_str_tolower.o: ft_str_tolower.c.o
@@ -1372,6 +1553,7 @@ ft_str_tolower.o: ft_str_tolower.c.o
 # target to build an object file
 ft_str_tolower.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_tolower.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_tolower.c.o
 .PHONY : ft_str_tolower.c.o
 
 ft_str_tolower.i: ft_str_tolower.c.i
@@ -1381,6 +1563,7 @@ ft_str_tolower.i: ft_str_tolower.c.i
 # target to preprocess a source file
 ft_str_tolower.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_tolower.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_tolower.c.i
 .PHONY : ft_str_tolower.c.i
 
 ft_str_tolower.s: ft_str_tolower.c.s
@@ -1390,6 +1573,7 @@ ft_str_tolower.s: ft_str_tolower.c.s
 # target to generate assembly for a file
 ft_str_tolower.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_tolower.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_tolower.c.s
 .PHONY : ft_str_tolower.c.s
 
 ft_str_u_long.o: ft_str_u_long.c.o
@@ -1399,6 +1583,7 @@ ft_str_u_long.o: ft_str_u_long.c.o
 # target to build an object file
 ft_str_u_long.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_u_long.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_u_long.c.o
 .PHONY : ft_str_u_long.c.o
 
 ft_str_u_long.i: ft_str_u_long.c.i
@@ -1408,6 +1593,7 @@ ft_str_u_long.i: ft_str_u_long.c.i
 # target to preprocess a source file
 ft_str_u_long.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_u_long.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_u_long.c.i
 .PHONY : ft_str_u_long.c.i
 
 ft_str_u_long.s: ft_str_u_long.c.s
@@ -1417,6 +1603,7 @@ ft_str_u_long.s: ft_str_u_long.c.s
 # target to generate assembly for a file
 ft_str_u_long.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_str_u_long.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_str_u_long.c.s
 .PHONY : ft_str_u_long.c.s
 
 ft_strcat.o: ft_strcat.c.o
@@ -1426,6 +1613,7 @@ ft_strcat.o: ft_strcat.c.o
 # target to build an object file
 ft_strcat.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcat.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcat.c.o
 .PHONY : ft_strcat.c.o
 
 ft_strcat.i: ft_strcat.c.i
@@ -1435,6 +1623,7 @@ ft_strcat.i: ft_strcat.c.i
 # target to preprocess a source file
 ft_strcat.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcat.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcat.c.i
 .PHONY : ft_strcat.c.i
 
 ft_strcat.s: ft_strcat.c.s
@@ -1444,6 +1633,7 @@ ft_strcat.s: ft_strcat.c.s
 # target to generate assembly for a file
 ft_strcat.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcat.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcat.c.s
 .PHONY : ft_strcat.c.s
 
 ft_strchr.o: ft_strchr.c.o
@@ -1453,6 +1643,7 @@ ft_strchr.o: ft_strchr.c.o
 # target to build an object file
 ft_strchr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strchr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strchr.c.o
 .PHONY : ft_strchr.c.o
 
 ft_strchr.i: ft_strchr.c.i
@@ -1462,6 +1653,7 @@ ft_strchr.i: ft_strchr.c.i
 # target to preprocess a source file
 ft_strchr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strchr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strchr.c.i
 .PHONY : ft_strchr.c.i
 
 ft_strchr.s: ft_strchr.c.s
@@ -1471,6 +1663,7 @@ ft_strchr.s: ft_strchr.c.s
 # target to generate assembly for a file
 ft_strchr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strchr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strchr.c.s
 .PHONY : ft_strchr.c.s
 
 ft_strclr.o: ft_strclr.c.o
@@ -1480,6 +1673,7 @@ ft_strclr.o: ft_strclr.c.o
 # target to build an object file
 ft_strclr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strclr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strclr.c.o
 .PHONY : ft_strclr.c.o
 
 ft_strclr.i: ft_strclr.c.i
@@ -1489,6 +1683,7 @@ ft_strclr.i: ft_strclr.c.i
 # target to preprocess a source file
 ft_strclr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strclr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strclr.c.i
 .PHONY : ft_strclr.c.i
 
 ft_strclr.s: ft_strclr.c.s
@@ -1498,6 +1693,7 @@ ft_strclr.s: ft_strclr.c.s
 # target to generate assembly for a file
 ft_strclr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strclr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strclr.c.s
 .PHONY : ft_strclr.c.s
 
 ft_strcmp.o: ft_strcmp.c.o
@@ -1507,6 +1703,7 @@ ft_strcmp.o: ft_strcmp.c.o
 # target to build an object file
 ft_strcmp.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcmp.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcmp.c.o
 .PHONY : ft_strcmp.c.o
 
 ft_strcmp.i: ft_strcmp.c.i
@@ -1516,6 +1713,7 @@ ft_strcmp.i: ft_strcmp.c.i
 # target to preprocess a source file
 ft_strcmp.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcmp.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcmp.c.i
 .PHONY : ft_strcmp.c.i
 
 ft_strcmp.s: ft_strcmp.c.s
@@ -1525,6 +1723,7 @@ ft_strcmp.s: ft_strcmp.c.s
 # target to generate assembly for a file
 ft_strcmp.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcmp.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcmp.c.s
 .PHONY : ft_strcmp.c.s
 
 ft_strcpy.o: ft_strcpy.c.o
@@ -1534,6 +1733,7 @@ ft_strcpy.o: ft_strcpy.c.o
 # target to build an object file
 ft_strcpy.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcpy.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcpy.c.o
 .PHONY : ft_strcpy.c.o
 
 ft_strcpy.i: ft_strcpy.c.i
@@ -1543,6 +1743,7 @@ ft_strcpy.i: ft_strcpy.c.i
 # target to preprocess a source file
 ft_strcpy.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcpy.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcpy.c.i
 .PHONY : ft_strcpy.c.i
 
 ft_strcpy.s: ft_strcpy.c.s
@@ -1552,6 +1753,7 @@ ft_strcpy.s: ft_strcpy.c.s
 # target to generate assembly for a file
 ft_strcpy.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strcpy.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strcpy.c.s
 .PHONY : ft_strcpy.c.s
 
 ft_strdel.o: ft_strdel.c.o
@@ -1561,6 +1763,7 @@ ft_strdel.o: ft_strdel.c.o
 # target to build an object file
 ft_strdel.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strdel.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strdel.c.o
 .PHONY : ft_strdel.c.o
 
 ft_strdel.i: ft_strdel.c.i
@@ -1570,6 +1773,7 @@ ft_strdel.i: ft_strdel.c.i
 # target to preprocess a source file
 ft_strdel.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strdel.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strdel.c.i
 .PHONY : ft_strdel.c.i
 
 ft_strdel.s: ft_strdel.c.s
@@ -1579,6 +1783,7 @@ ft_strdel.s: ft_strdel.c.s
 # target to generate assembly for a file
 ft_strdel.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strdel.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strdel.c.s
 .PHONY : ft_strdel.c.s
 
 ft_strdup.o: ft_strdup.c.o
@@ -1588,6 +1793,7 @@ ft_strdup.o: ft_strdup.c.o
 # target to build an object file
 ft_strdup.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strdup.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strdup.c.o
 .PHONY : ft_strdup.c.o
 
 ft_strdup.i: ft_strdup.c.i
@@ -1597,6 +1803,7 @@ ft_strdup.i: ft_strdup.c.i
 # target to preprocess a source file
 ft_strdup.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strdup.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strdup.c.i
 .PHONY : ft_strdup.c.i
 
 ft_strdup.s: ft_strdup.c.s
@@ -1606,6 +1813,7 @@ ft_strdup.s: ft_strdup.c.s
 # target to generate assembly for a file
 ft_strdup.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strdup.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strdup.c.s
 .PHONY : ft_strdup.c.s
 
 ft_strequ.o: ft_strequ.c.o
@@ -1615,6 +1823,7 @@ ft_strequ.o: ft_strequ.c.o
 # target to build an object file
 ft_strequ.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strequ.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strequ.c.o
 .PHONY : ft_strequ.c.o
 
 ft_strequ.i: ft_strequ.c.i
@@ -1624,6 +1833,7 @@ ft_strequ.i: ft_strequ.c.i
 # target to preprocess a source file
 ft_strequ.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strequ.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strequ.c.i
 .PHONY : ft_strequ.c.i
 
 ft_strequ.s: ft_strequ.c.s
@@ -1633,6 +1843,7 @@ ft_strequ.s: ft_strequ.c.s
 # target to generate assembly for a file
 ft_strequ.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strequ.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strequ.c.s
 .PHONY : ft_strequ.c.s
 
 ft_striter.o: ft_striter.c.o
@@ -1642,6 +1853,7 @@ ft_striter.o: ft_striter.c.o
 # target to build an object file
 ft_striter.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_striter.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_striter.c.o
 .PHONY : ft_striter.c.o
 
 ft_striter.i: ft_striter.c.i
@@ -1651,6 +1863,7 @@ ft_striter.i: ft_striter.c.i
 # target to preprocess a source file
 ft_striter.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_striter.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_striter.c.i
 .PHONY : ft_striter.c.i
 
 ft_striter.s: ft_striter.c.s
@@ -1660,6 +1873,7 @@ ft_striter.s: ft_striter.c.s
 # target to generate assembly for a file
 ft_striter.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_striter.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_striter.c.s
 .PHONY : ft_striter.c.s
 
 ft_striteri.o: ft_striteri.c.o
@@ -1669,6 +1883,7 @@ ft_striteri.o: ft_striteri.c.o
 # target to build an object file
 ft_striteri.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_striteri.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_striteri.c.o
 .PHONY : ft_striteri.c.o
 
 ft_striteri.i: ft_striteri.c.i
@@ -1678,6 +1893,7 @@ ft_striteri.i: ft_striteri.c.i
 # target to preprocess a source file
 ft_striteri.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_striteri.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_striteri.c.i
 .PHONY : ft_striteri.c.i
 
 ft_striteri.s: ft_striteri.c.s
@@ -1687,6 +1903,7 @@ ft_striteri.s: ft_striteri.c.s
 # target to generate assembly for a file
 ft_striteri.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_striteri.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_striteri.c.s
 .PHONY : ft_striteri.c.s
 
 ft_strjoin.o: ft_strjoin.c.o
@@ -1696,6 +1913,7 @@ ft_strjoin.o: ft_strjoin.c.o
 # target to build an object file
 ft_strjoin.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strjoin.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strjoin.c.o
 .PHONY : ft_strjoin.c.o
 
 ft_strjoin.i: ft_strjoin.c.i
@@ -1705,6 +1923,7 @@ ft_strjoin.i: ft_strjoin.c.i
 # target to preprocess a source file
 ft_strjoin.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strjoin.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strjoin.c.i
 .PHONY : ft_strjoin.c.i
 
 ft_strjoin.s: ft_strjoin.c.s
@@ -1714,6 +1933,7 @@ ft_strjoin.s: ft_strjoin.c.s
 # target to generate assembly for a file
 ft_strjoin.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strjoin.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strjoin.c.s
 .PHONY : ft_strjoin.c.s
 
 ft_strlcat.o: ft_strlcat.c.o
@@ -1723,6 +1943,7 @@ ft_strlcat.o: ft_strlcat.c.o
 # target to build an object file
 ft_strlcat.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strlcat.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strlcat.c.o
 .PHONY : ft_strlcat.c.o
 
 ft_strlcat.i: ft_strlcat.c.i
@@ -1732,6 +1953,7 @@ ft_strlcat.i: ft_strlcat.c.i
 # target to preprocess a source file
 ft_strlcat.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strlcat.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strlcat.c.i
 .PHONY : ft_strlcat.c.i
 
 ft_strlcat.s: ft_strlcat.c.s
@@ -1741,6 +1963,7 @@ ft_strlcat.s: ft_strlcat.c.s
 # target to generate assembly for a file
 ft_strlcat.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strlcat.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strlcat.c.s
 .PHONY : ft_strlcat.c.s
 
 ft_strlen.o: ft_strlen.c.o
@@ -1750,6 +1973,7 @@ ft_strlen.o: ft_strlen.c.o
 # target to build an object file
 ft_strlen.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strlen.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strlen.c.o
 .PHONY : ft_strlen.c.o
 
 ft_strlen.i: ft_strlen.c.i
@@ -1759,6 +1983,7 @@ ft_strlen.i: ft_strlen.c.i
 # target to preprocess a source file
 ft_strlen.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strlen.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strlen.c.i
 .PHONY : ft_strlen.c.i
 
 ft_strlen.s: ft_strlen.c.s
@@ -1768,6 +1993,7 @@ ft_strlen.s: ft_strlen.c.s
 # target to generate assembly for a file
 ft_strlen.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strlen.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strlen.c.s
 .PHONY : ft_strlen.c.s
 
 ft_strmap.o: ft_strmap.c.o
@@ -1777,6 +2003,7 @@ ft_strmap.o: ft_strmap.c.o
 # target to build an object file
 ft_strmap.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strmap.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strmap.c.o
 .PHONY : ft_strmap.c.o
 
 ft_strmap.i: ft_strmap.c.i
@@ -1786,6 +2013,7 @@ ft_strmap.i: ft_strmap.c.i
 # target to preprocess a source file
 ft_strmap.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strmap.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strmap.c.i
 .PHONY : ft_strmap.c.i
 
 ft_strmap.s: ft_strmap.c.s
@@ -1795,6 +2023,7 @@ ft_strmap.s: ft_strmap.c.s
 # target to generate assembly for a file
 ft_strmap.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strmap.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strmap.c.s
 .PHONY : ft_strmap.c.s
 
 ft_strmapi.o: ft_strmapi.c.o
@@ -1804,6 +2033,7 @@ ft_strmapi.o: ft_strmapi.c.o
 # target to build an object file
 ft_strmapi.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strmapi.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strmapi.c.o
 .PHONY : ft_strmapi.c.o
 
 ft_strmapi.i: ft_strmapi.c.i
@@ -1813,6 +2043,7 @@ ft_strmapi.i: ft_strmapi.c.i
 # target to preprocess a source file
 ft_strmapi.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strmapi.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strmapi.c.i
 .PHONY : ft_strmapi.c.i
 
 ft_strmapi.s: ft_strmapi.c.s
@@ -1822,6 +2053,7 @@ ft_strmapi.s: ft_strmapi.c.s
 # target to generate assembly for a file
 ft_strmapi.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strmapi.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strmapi.c.s
 .PHONY : ft_strmapi.c.s
 
 ft_strncat.o: ft_strncat.c.o
@@ -1831,6 +2063,7 @@ ft_strncat.o: ft_strncat.c.o
 # target to build an object file
 ft_strncat.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncat.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncat.c.o
 .PHONY : ft_strncat.c.o
 
 ft_strncat.i: ft_strncat.c.i
@@ -1840,6 +2073,7 @@ ft_strncat.i: ft_strncat.c.i
 # target to preprocess a source file
 ft_strncat.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncat.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncat.c.i
 .PHONY : ft_strncat.c.i
 
 ft_strncat.s: ft_strncat.c.s
@@ -1849,6 +2083,7 @@ ft_strncat.s: ft_strncat.c.s
 # target to generate assembly for a file
 ft_strncat.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncat.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncat.c.s
 .PHONY : ft_strncat.c.s
 
 ft_strncmp.o: ft_strncmp.c.o
@@ -1858,6 +2093,7 @@ ft_strncmp.o: ft_strncmp.c.o
 # target to build an object file
 ft_strncmp.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncmp.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncmp.c.o
 .PHONY : ft_strncmp.c.o
 
 ft_strncmp.i: ft_strncmp.c.i
@@ -1867,6 +2103,7 @@ ft_strncmp.i: ft_strncmp.c.i
 # target to preprocess a source file
 ft_strncmp.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncmp.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncmp.c.i
 .PHONY : ft_strncmp.c.i
 
 ft_strncmp.s: ft_strncmp.c.s
@@ -1876,6 +2113,7 @@ ft_strncmp.s: ft_strncmp.c.s
 # target to generate assembly for a file
 ft_strncmp.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncmp.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncmp.c.s
 .PHONY : ft_strncmp.c.s
 
 ft_strncpy.o: ft_strncpy.c.o
@@ -1885,6 +2123,7 @@ ft_strncpy.o: ft_strncpy.c.o
 # target to build an object file
 ft_strncpy.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncpy.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncpy.c.o
 .PHONY : ft_strncpy.c.o
 
 ft_strncpy.i: ft_strncpy.c.i
@@ -1894,6 +2133,7 @@ ft_strncpy.i: ft_strncpy.c.i
 # target to preprocess a source file
 ft_strncpy.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncpy.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncpy.c.i
 .PHONY : ft_strncpy.c.i
 
 ft_strncpy.s: ft_strncpy.c.s
@@ -1903,6 +2143,7 @@ ft_strncpy.s: ft_strncpy.c.s
 # target to generate assembly for a file
 ft_strncpy.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strncpy.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strncpy.c.s
 .PHONY : ft_strncpy.c.s
 
 ft_strnequ.o: ft_strnequ.c.o
@@ -1912,6 +2153,7 @@ ft_strnequ.o: ft_strnequ.c.o
 # target to build an object file
 ft_strnequ.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnequ.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnequ.c.o
 .PHONY : ft_strnequ.c.o
 
 ft_strnequ.i: ft_strnequ.c.i
@@ -1921,6 +2163,7 @@ ft_strnequ.i: ft_strnequ.c.i
 # target to preprocess a source file
 ft_strnequ.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnequ.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnequ.c.i
 .PHONY : ft_strnequ.c.i
 
 ft_strnequ.s: ft_strnequ.c.s
@@ -1930,6 +2173,7 @@ ft_strnequ.s: ft_strnequ.c.s
 # target to generate assembly for a file
 ft_strnequ.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnequ.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnequ.c.s
 .PHONY : ft_strnequ.c.s
 
 ft_strnew.o: ft_strnew.c.o
@@ -1939,6 +2183,7 @@ ft_strnew.o: ft_strnew.c.o
 # target to build an object file
 ft_strnew.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnew.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnew.c.o
 .PHONY : ft_strnew.c.o
 
 ft_strnew.i: ft_strnew.c.i
@@ -1948,6 +2193,7 @@ ft_strnew.i: ft_strnew.c.i
 # target to preprocess a source file
 ft_strnew.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnew.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnew.c.i
 .PHONY : ft_strnew.c.i
 
 ft_strnew.s: ft_strnew.c.s
@@ -1957,6 +2203,7 @@ ft_strnew.s: ft_strnew.c.s
 # target to generate assembly for a file
 ft_strnew.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnew.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnew.c.s
 .PHONY : ft_strnew.c.s
 
 ft_strnstr.o: ft_strnstr.c.o
@@ -1966,6 +2213,7 @@ ft_strnstr.o: ft_strnstr.c.o
 # target to build an object file
 ft_strnstr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnstr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnstr.c.o
 .PHONY : ft_strnstr.c.o
 
 ft_strnstr.i: ft_strnstr.c.i
@@ -1975,6 +2223,7 @@ ft_strnstr.i: ft_strnstr.c.i
 # target to preprocess a source file
 ft_strnstr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnstr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnstr.c.i
 .PHONY : ft_strnstr.c.i
 
 ft_strnstr.s: ft_strnstr.c.s
@@ -1984,6 +2233,7 @@ ft_strnstr.s: ft_strnstr.c.s
 # target to generate assembly for a file
 ft_strnstr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strnstr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strnstr.c.s
 .PHONY : ft_strnstr.c.s
 
 ft_strrchr.o: ft_strrchr.c.o
@@ -1993,6 +2243,7 @@ ft_strrchr.o: ft_strrchr.c.o
 # target to build an object file
 ft_strrchr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strrchr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strrchr.c.o
 .PHONY : ft_strrchr.c.o
 
 ft_strrchr.i: ft_strrchr.c.i
@@ -2002,6 +2253,7 @@ ft_strrchr.i: ft_strrchr.c.i
 # target to preprocess a source file
 ft_strrchr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strrchr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strrchr.c.i
 .PHONY : ft_strrchr.c.i
 
 ft_strrchr.s: ft_strrchr.c.s
@@ -2011,6 +2263,7 @@ ft_strrchr.s: ft_strrchr.c.s
 # target to generate assembly for a file
 ft_strrchr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strrchr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strrchr.c.s
 .PHONY : ft_strrchr.c.s
 
 ft_strsplit.o: ft_strsplit.c.o
@@ -2020,6 +2273,7 @@ ft_strsplit.o: ft_strsplit.c.o
 # target to build an object file
 ft_strsplit.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strsplit.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strsplit.c.o
 .PHONY : ft_strsplit.c.o
 
 ft_strsplit.i: ft_strsplit.c.i
@@ -2029,6 +2283,7 @@ ft_strsplit.i: ft_strsplit.c.i
 # target to preprocess a source file
 ft_strsplit.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strsplit.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strsplit.c.i
 .PHONY : ft_strsplit.c.i
 
 ft_strsplit.s: ft_strsplit.c.s
@@ -2038,6 +2293,7 @@ ft_strsplit.s: ft_strsplit.c.s
 # target to generate assembly for a file
 ft_strsplit.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strsplit.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strsplit.c.s
 .PHONY : ft_strsplit.c.s
 
 ft_strstr.o: ft_strstr.c.o
@@ -2047,6 +2303,7 @@ ft_strstr.o: ft_strstr.c.o
 # target to build an object file
 ft_strstr.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strstr.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strstr.c.o
 .PHONY : ft_strstr.c.o
 
 ft_strstr.i: ft_strstr.c.i
@@ -2056,6 +2313,7 @@ ft_strstr.i: ft_strstr.c.i
 # target to preprocess a source file
 ft_strstr.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strstr.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strstr.c.i
 .PHONY : ft_strstr.c.i
 
 ft_strstr.s: ft_strstr.c.s
@@ -2065,6 +2323,7 @@ ft_strstr.s: ft_strstr.c.s
 # target to generate assembly for a file
 ft_strstr.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strstr.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strstr.c.s
 .PHONY : ft_strstr.c.s
 
 ft_strsub.o: ft_strsub.c.o
@@ -2074,6 +2333,7 @@ ft_strsub.o: ft_strsub.c.o
 # target to build an object file
 ft_strsub.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strsub.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strsub.c.o
 .PHONY : ft_strsub.c.o
 
 ft_strsub.i: ft_strsub.c.i
@@ -2083,6 +2343,7 @@ ft_strsub.i: ft_strsub.c.i
 # target to preprocess a source file
 ft_strsub.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strsub.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strsub.c.i
 .PHONY : ft_strsub.c.i
 
 ft_strsub.s: ft_strsub.c.s
@@ -2092,6 +2353,7 @@ ft_strsub.s: ft_strsub.c.s
 # target to generate assembly for a file
 ft_strsub.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strsub.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strsub.c.s
 .PHONY : ft_strsub.c.s
 
 ft_strtrim.o: ft_strtrim.c.o
@@ -2101,6 +2363,7 @@ ft_strtrim.o: ft_strtrim.c.o
 # target to build an object file
 ft_strtrim.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strtrim.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strtrim.c.o
 .PHONY : ft_strtrim.c.o
 
 ft_strtrim.i: ft_strtrim.c.i
@@ -2110,6 +2373,7 @@ ft_strtrim.i: ft_strtrim.c.i
 # target to preprocess a source file
 ft_strtrim.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strtrim.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strtrim.c.i
 .PHONY : ft_strtrim.c.i
 
 ft_strtrim.s: ft_strtrim.c.s
@@ -2119,6 +2383,7 @@ ft_strtrim.s: ft_strtrim.c.s
 # target to generate assembly for a file
 ft_strtrim.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_strtrim.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_strtrim.c.s
 .PHONY : ft_strtrim.c.s
 
 ft_tolower.o: ft_tolower.c.o
@@ -2128,6 +2393,7 @@ ft_tolower.o: ft_tolower.c.o
 # target to build an object file
 ft_tolower.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_tolower.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_tolower.c.o
 .PHONY : ft_tolower.c.o
 
 ft_tolower.i: ft_tolower.c.i
@@ -2137,6 +2403,7 @@ ft_tolower.i: ft_tolower.c.i
 # target to preprocess a source file
 ft_tolower.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_tolower.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_tolower.c.i
 .PHONY : ft_tolower.c.i
 
 ft_tolower.s: ft_tolower.c.s
@@ -2146,6 +2413,7 @@ ft_tolower.s: ft_tolower.c.s
 # target to generate assembly for a file
 ft_tolower.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_tolower.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_tolower.c.s
 .PHONY : ft_tolower.c.s
 
 ft_toupper.o: ft_toupper.c.o
@@ -2155,6 +2423,7 @@ ft_toupper.o: ft_toupper.c.o
 # target to build an object file
 ft_toupper.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_toupper.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_toupper.c.o
 .PHONY : ft_toupper.c.o
 
 ft_toupper.i: ft_toupper.c.i
@@ -2164,6 +2433,7 @@ ft_toupper.i: ft_toupper.c.i
 # target to preprocess a source file
 ft_toupper.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_toupper.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_toupper.c.i
 .PHONY : ft_toupper.c.i
 
 ft_toupper.s: ft_toupper.c.s
@@ -2173,6 +2443,7 @@ ft_toupper.s: ft_toupper.c.s
 # target to generate assembly for a file
 ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_toupper.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_toupper.c.s
 .PHONY : ft_toupper.c.s
 
 ft_utf.o: ft_utf.c.o
@@ -2182,6 +2453,7 @@ ft_utf.o: ft_utf.c.o
 # target to build an object file
 ft_utf.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_utf.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_utf.c.o
 .PHONY : ft_utf.c.o
 
 ft_utf.i: ft_utf.c.i
@@ -2191,6 +2463,7 @@ ft_utf.i: ft_utf.c.i
 # target to preprocess a source file
 ft_utf.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_utf.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_utf.c.i
 .PHONY : ft_utf.c.i
 
 ft_utf.s: ft_utf.c.s
@@ -2200,6 +2473,7 @@ ft_utf.s: ft_utf.c.s
 # target to generate assembly for a file
 ft_utf.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_utf.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ft_utf.c.s
 .PHONY : ft_utf.c.s
 
 get_next_line.o: get_next_line.c.o
@@ -2209,6 +2483,7 @@ get_next_line.o: get_next_line.c.o
 # target to build an object file
 get_next_line.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/get_next_line.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/get_next_line.c.o
 .PHONY : get_next_line.c.o
 
 get_next_line.i: get_next_line.c.i
@@ -2218,6 +2493,7 @@ get_next_line.i: get_next_line.c.i
 # target to preprocess a source file
 get_next_line.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/get_next_line.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/get_next_line.c.i
 .PHONY : get_next_line.c.i
 
 get_next_line.s: get_next_line.c.s
@@ -2227,6 +2503,7 @@ get_next_line.s: get_next_line.c.s
 # target to generate assembly for a file
 get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/get_next_line.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/get_next_line.c.s
 .PHONY : get_next_line.c.s
 
 get_num_str.o: get_num_str.c.o
@@ -2236,6 +2513,7 @@ get_num_str.o: get_num_str.c.o
 # target to build an object file
 get_num_str.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/get_num_str.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/get_num_str.c.o
 .PHONY : get_num_str.c.o
 
 get_num_str.i: get_num_str.c.i
@@ -2245,6 +2523,7 @@ get_num_str.i: get_num_str.c.i
 # target to preprocess a source file
 get_num_str.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/get_num_str.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/get_num_str.c.i
 .PHONY : get_num_str.c.i
 
 get_num_str.s: get_num_str.c.s
@@ -2254,6 +2533,7 @@ get_num_str.s: get_num_str.c.s
 # target to generate assembly for a file
 get_num_str.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/get_num_str.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/get_num_str.c.s
 .PHONY : get_num_str.c.s
 
 l_add.o: l_add.c.o
@@ -2263,6 +2543,7 @@ l_add.o: l_add.c.o
 # target to build an object file
 l_add.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_add.c.o
 .PHONY : l_add.c.o
 
 l_add.i: l_add.c.i
@@ -2272,6 +2553,7 @@ l_add.i: l_add.c.i
 # target to preprocess a source file
 l_add.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_add.c.i
 .PHONY : l_add.c.i
 
 l_add.s: l_add.c.s
@@ -2281,6 +2563,7 @@ l_add.s: l_add.c.s
 # target to generate assembly for a file
 l_add.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_add.c.s
 .PHONY : l_add.c.s
 
 l_add_last.o: l_add_last.c.o
@@ -2290,6 +2573,7 @@ l_add_last.o: l_add_last.c.o
 # target to build an object file
 l_add_last.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add_last.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_add_last.c.o
 .PHONY : l_add_last.c.o
 
 l_add_last.i: l_add_last.c.i
@@ -2299,6 +2583,7 @@ l_add_last.i: l_add_last.c.i
 # target to preprocess a source file
 l_add_last.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add_last.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_add_last.c.i
 .PHONY : l_add_last.c.i
 
 l_add_last.s: l_add_last.c.s
@@ -2308,6 +2593,7 @@ l_add_last.s: l_add_last.c.s
 # target to generate assembly for a file
 l_add_last.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_add_last.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_add_last.c.s
 .PHONY : l_add_last.c.s
 
 l_count.o: l_count.c.o
@@ -2317,6 +2603,7 @@ l_count.o: l_count.c.o
 # target to build an object file
 l_count.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_count.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_count.c.o
 .PHONY : l_count.c.o
 
 l_count.i: l_count.c.i
@@ -2326,6 +2613,7 @@ l_count.i: l_count.c.i
 # target to preprocess a source file
 l_count.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_count.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_count.c.i
 .PHONY : l_count.c.i
 
 l_count.s: l_count.c.s
@@ -2335,6 +2623,7 @@ l_count.s: l_count.c.s
 # target to generate assembly for a file
 l_count.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_count.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_count.c.s
 .PHONY : l_count.c.s
 
 l_del.o: l_del.c.o
@@ -2344,6 +2633,7 @@ l_del.o: l_del.c.o
 # target to build an object file
 l_del.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del.c.o
 .PHONY : l_del.c.o
 
 l_del.i: l_del.c.i
@@ -2353,6 +2643,7 @@ l_del.i: l_del.c.i
 # target to preprocess a source file
 l_del.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del.c.i
 .PHONY : l_del.c.i
 
 l_del.s: l_del.c.s
@@ -2362,6 +2653,7 @@ l_del.s: l_del.c.s
 # target to generate assembly for a file
 l_del.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del.c.s
 .PHONY : l_del.c.s
 
 l_del_all.o: l_del_all.c.o
@@ -2371,6 +2663,7 @@ l_del_all.o: l_del_all.c.o
 # target to build an object file
 l_del_all.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_all.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del_all.c.o
 .PHONY : l_del_all.c.o
 
 l_del_all.i: l_del_all.c.i
@@ -2380,6 +2673,7 @@ l_del_all.i: l_del_all.c.i
 # target to preprocess a source file
 l_del_all.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_all.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del_all.c.i
 .PHONY : l_del_all.c.i
 
 l_del_all.s: l_del_all.c.s
@@ -2389,6 +2683,7 @@ l_del_all.s: l_del_all.c.s
 # target to generate assembly for a file
 l_del_all.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_all.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del_all.c.s
 .PHONY : l_del_all.c.s
 
 l_del_nth.o: l_del_nth.c.o
@@ -2398,6 +2693,7 @@ l_del_nth.o: l_del_nth.c.o
 # target to build an object file
 l_del_nth.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_nth.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del_nth.c.o
 .PHONY : l_del_nth.c.o
 
 l_del_nth.i: l_del_nth.c.i
@@ -2407,6 +2703,7 @@ l_del_nth.i: l_del_nth.c.i
 # target to preprocess a source file
 l_del_nth.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_nth.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del_nth.c.i
 .PHONY : l_del_nth.c.i
 
 l_del_nth.s: l_del_nth.c.s
@@ -2416,6 +2713,7 @@ l_del_nth.s: l_del_nth.c.s
 # target to generate assembly for a file
 l_del_nth.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_del_nth.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_del_nth.c.s
 .PHONY : l_del_nth.c.s
 
 l_get_nth.o: l_get_nth.c.o
@@ -2425,6 +2723,7 @@ l_get_nth.o: l_get_nth.c.o
 # target to build an object file
 l_get_nth.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_get_nth.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_get_nth.c.o
 .PHONY : l_get_nth.c.o
 
 l_get_nth.i: l_get_nth.c.i
@@ -2434,6 +2733,7 @@ l_get_nth.i: l_get_nth.c.i
 # target to preprocess a source file
 l_get_nth.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_get_nth.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_get_nth.c.i
 .PHONY : l_get_nth.c.i
 
 l_get_nth.s: l_get_nth.c.s
@@ -2443,6 +2743,7 @@ l_get_nth.s: l_get_nth.c.s
 # target to generate assembly for a file
 l_get_nth.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_get_nth.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_get_nth.c.s
 .PHONY : l_get_nth.c.s
 
 l_iter.o: l_iter.c.o
@@ -2452,6 +2753,7 @@ l_iter.o: l_iter.c.o
 # target to build an object file
 l_iter.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_iter.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_iter.c.o
 .PHONY : l_iter.c.o
 
 l_iter.i: l_iter.c.i
@@ -2461,6 +2763,7 @@ l_iter.i: l_iter.c.i
 # target to preprocess a source file
 l_iter.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_iter.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_iter.c.i
 .PHONY : l_iter.c.i
 
 l_iter.s: l_iter.c.s
@@ -2470,6 +2773,7 @@ l_iter.s: l_iter.c.s
 # target to generate assembly for a file
 l_iter.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/l_iter.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/l_iter.c.s
 .PHONY : l_iter.c.s
 
 o_octal.o: o_octal.c.o
@@ -2479,6 +2783,7 @@ o_octal.o: o_octal.c.o
 # target to build an object file
 o_octal.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/o_octal.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/o_octal.c.o
 .PHONY : o_octal.c.o
 
 o_octal.i: o_octal.c.i
@@ -2488,6 +2793,7 @@ o_octal.i: o_octal.c.i
 # target to preprocess a source file
 o_octal.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/o_octal.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/o_octal.c.i
 .PHONY : o_octal.c.i
 
 o_octal.s: o_octal.c.s
@@ -2497,6 +2803,7 @@ o_octal.s: o_octal.c.s
 # target to generate assembly for a file
 o_octal.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/o_octal.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/o_octal.c.s
 .PHONY : o_octal.c.s
 
 p_hex.o: p_hex.c.o
@@ -2506,6 +2813,7 @@ p_hex.o: p_hex.c.o
 # target to build an object file
 p_hex.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/p_hex.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/p_hex.c.o
 .PHONY : p_hex.c.o
 
 p_hex.i: p_hex.c.i
@@ -2515,6 +2823,7 @@ p_hex.i: p_hex.c.i
 # target to preprocess a source file
 p_hex.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/p_hex.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/p_hex.c.i
 .PHONY : p_hex.c.i
 
 p_hex.s: p_hex.c.s
@@ -2524,6 +2833,7 @@ p_hex.s: p_hex.c.s
 # target to generate assembly for a file
 p_hex.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/p_hex.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/p_hex.c.s
 .PHONY : p_hex.c.s
 
 persent.o: persent.c.o
@@ -2533,6 +2843,7 @@ persent.o: persent.c.o
 # target to build an object file
 persent.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/persent.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/persent.c.o
 .PHONY : persent.c.o
 
 persent.i: persent.c.i
@@ -2542,6 +2853,7 @@ persent.i: persent.c.i
 # target to preprocess a source file
 persent.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/persent.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/persent.c.i
 .PHONY : persent.c.i
 
 persent.s: persent.c.s
@@ -2551,6 +2863,7 @@ persent.s: persent.c.s
 # target to generate assembly for a file
 persent.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/persent.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/persent.c.s
 .PHONY : persent.c.s
 
 s_string.o: s_string.c.o
@@ -2560,6 +2873,7 @@ s_string.o: s_string.c.o
 # target to build an object file
 s_string.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/s_string.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/s_string.c.o
 .PHONY : s_string.c.o
 
 s_string.i: s_string.c.i
@@ -2569,6 +2883,7 @@ s_string.i: s_string.c.i
 # target to preprocess a source file
 s_string.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/s_string.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/s_string.c.i
 .PHONY : s_string.c.i
 
 s_string.s: s_string.c.s
@@ -2578,6 +2893,7 @@ s_string.s: s_string.c.s
 # target to generate assembly for a file
 s_string.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/s_string.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/s_string.c.s
 .PHONY : s_string.c.s
 
 select.o: select.c.o
@@ -2587,6 +2903,7 @@ select.o: select.c.o
 # target to build an object file
 select.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/select.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/select.c.o
 .PHONY : select.c.o
 
 select.i: select.c.i
@@ -2596,6 +2913,7 @@ select.i: select.c.i
 # target to preprocess a source file
 select.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/select.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/select.c.i
 .PHONY : select.c.i
 
 select.s: select.c.s
@@ -2605,6 +2923,7 @@ select.s: select.c.s
 # target to generate assembly for a file
 select.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/select.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/select.c.s
 .PHONY : select.c.s
 
 u_unsigned_decimal.o: u_unsigned_decimal.c.o
@@ -2614,6 +2933,7 @@ u_unsigned_decimal.o: u_unsigned_decimal.c.o
 # target to build an object file
 u_unsigned_decimal.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/u_unsigned_decimal.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/u_unsigned_decimal.c.o
 .PHONY : u_unsigned_decimal.c.o
 
 u_unsigned_decimal.i: u_unsigned_decimal.c.i
@@ -2623,6 +2943,7 @@ u_unsigned_decimal.i: u_unsigned_decimal.c.i
 # target to preprocess a source file
 u_unsigned_decimal.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/u_unsigned_decimal.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/u_unsigned_decimal.c.i
 .PHONY : u_unsigned_decimal.c.i
 
 u_unsigned_decimal.s: u_unsigned_decimal.c.s
@@ -2632,6 +2953,7 @@ u_unsigned_decimal.s: u_unsigned_decimal.c.s
 # target to generate assembly for a file
 u_unsigned_decimal.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/u_unsigned_decimal.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/u_unsigned_decimal.c.s
 .PHONY : u_unsigned_decimal.c.s
 
 validate_size.o: validate_size.c.o
@@ -2641,6 +2963,7 @@ validate_size.o: validate_size.c.o
 # target to build an object file
 validate_size.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/validate_size.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/validate_size.c.o
 .PHONY : validate_size.c.o
 
 validate_size.i: validate_size.c.i
@@ -2650,6 +2973,7 @@ validate_size.i: validate_size.c.i
 # target to preprocess a source file
 validate_size.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/validate_size.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/validate_size.c.i
 .PHONY : validate_size.c.i
 
 validate_size.s: validate_size.c.s
@@ -2659,6 +2983,7 @@ validate_size.s: validate_size.c.s
 # target to generate assembly for a file
 validate_size.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/validate_size.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/validate_size.c.s
 .PHONY : validate_size.c.s
 
 wc_char.o: wc_char.c.o
@@ -2668,6 +2993,7 @@ wc_char.o: wc_char.c.o
 # target to build an object file
 wc_char.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/wc_char.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/wc_char.c.o
 .PHONY : wc_char.c.o
 
 wc_char.i: wc_char.c.i
@@ -2677,6 +3003,7 @@ wc_char.i: wc_char.c.i
 # target to preprocess a source file
 wc_char.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/wc_char.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/wc_char.c.i
 .PHONY : wc_char.c.i
 
 wc_char.s: wc_char.c.s
@@ -2686,6 +3013,7 @@ wc_char.s: wc_char.c.s
 # target to generate assembly for a file
 wc_char.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/wc_char.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/wc_char.c.s
 .PHONY : wc_char.c.s
 
 ws_string.o: ws_string.c.o
@@ -2695,6 +3023,7 @@ ws_string.o: ws_string.c.o
 # target to build an object file
 ws_string.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ws_string.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ws_string.c.o
 .PHONY : ws_string.c.o
 
 ws_string.i: ws_string.c.i
@@ -2704,6 +3033,7 @@ ws_string.i: ws_string.c.i
 # target to preprocess a source file
 ws_string.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ws_string.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ws_string.c.i
 .PHONY : ws_string.c.i
 
 ws_string.s: ws_string.c.s
@@ -2713,6 +3043,7 @@ ws_string.s: ws_string.c.s
 # target to generate assembly for a file
 ws_string.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ws_string.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/ws_string.c.s
 .PHONY : ws_string.c.s
 
 x_hex.o: x_hex.c.o
@@ -2722,6 +3053,7 @@ x_hex.o: x_hex.c.o
 # target to build an object file
 x_hex.c.o:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/x_hex.c.o
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/x_hex.c.o
 .PHONY : x_hex.c.o
 
 x_hex.i: x_hex.c.i
@@ -2731,6 +3063,7 @@ x_hex.i: x_hex.c.i
 # target to preprocess a source file
 x_hex.c.i:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/x_hex.c.i
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/x_hex.c.i
 .PHONY : x_hex.c.i
 
 x_hex.s: x_hex.c.s
@@ -2740,6 +3073,7 @@ x_hex.s: x_hex.c.s
 # target to generate assembly for a file
 x_hex.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/x_hex.c.s
+	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/x_hex.c.s
 .PHONY : x_hex.c.s
 
 # Help Target
@@ -2751,6 +3085,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft"
+	@echo "... ft_char_last_n"
 	@echo "... buffered_reader.o"
 	@echo "... buffered_reader.i"
 	@echo "... buffered_reader.s"
@@ -2772,6 +3107,9 @@ help:
 	@echo "... ft_bzero.o"
 	@echo "... ft_bzero.i"
 	@echo "... ft_bzero.s"
+	@echo "... ft_char_last_n.o"
+	@echo "... ft_char_last_n.i"
+	@echo "... ft_char_last_n.s"
 	@echo "... ft_char_n_str.o"
 	@echo "... ft_char_n_str.i"
 	@echo "... ft_char_n_str.s"
