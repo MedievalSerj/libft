@@ -1,26 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_clear_array.c                                   :+:      :+:    :+:   */
+/*   ft_list_to_array.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sladonia <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/02/27 12:52:40 by sladonia          #+#    #+#             */
-/*   Updated: 2017/02/27 12:52:42 by sladonia         ###   ########.fr       */
+/*   Created: 2017/03/05 16:18:50 by sladonia          #+#    #+#             */
+/*   Updated: 2017/03/05 16:18:52 by sladonia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_clear_arr(char ***s)
+char	**ft_lst_to_arr(t_lst *head)
 {
-	int i;
+	t_lst	*tmp;
+	int		i;
+	int		n;
+	char	**ret;
 
-	if (!s || !(*s))
-		return ;
-	i = -1;
-	while ((*s)[++i])
-		free((*s)[i]);
-	free(*s);
-	*s = NULL;
+	if (!head)
+		return (NULL);
+	tmp = head;
+	n = l_count(tmp);
+	ret = (char**)malloc(sizeof(char*) * (n + 1));
+	i = 0;
+	while (tmp)
+	{
+		ret[i] = ft_strdup(tmp->content);
+		tmp = tmp->next;
+		i++;
+	}
+	ret[i] = NULL;
+	return (ret);
 }

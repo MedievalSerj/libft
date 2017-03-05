@@ -97,39 +97,39 @@ clean: CMakeFiles/ft.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ft_char_last_n.dir
+# Target rules for target CMakeFiles/ft_list_to_arr.dir
 
 # All Build rule for target.
-CMakeFiles/ft_char_last_n.dir/all:
-	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/depend
-	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target ft_char_last_n"
-.PHONY : CMakeFiles/ft_char_last_n.dir/all
+CMakeFiles/ft_list_to_arr.dir/all:
+	$(MAKE) -f CMakeFiles/ft_list_to_arr.dir/build.make CMakeFiles/ft_list_to_arr.dir/depend
+	$(MAKE) -f CMakeFiles/ft_list_to_arr.dir/build.make CMakeFiles/ft_list_to_arr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target ft_list_to_arr"
+.PHONY : CMakeFiles/ft_list_to_arr.dir/all
 
 # Include target in all.
-all: CMakeFiles/ft_char_last_n.dir/all
+all: CMakeFiles/ft_list_to_arr.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ft_char_last_n.dir/rule: cmake_check_build_system
+CMakeFiles/ft_list_to_arr.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles 50
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ft_char_last_n.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ft_list_to_arr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ft_char_last_n.dir/rule
+.PHONY : CMakeFiles/ft_list_to_arr.dir/rule
 
 # Convenience name for target.
-ft_char_last_n: CMakeFiles/ft_char_last_n.dir/rule
+ft_list_to_arr: CMakeFiles/ft_list_to_arr.dir/rule
 
-.PHONY : ft_char_last_n
-
-# clean rule for target.
-CMakeFiles/ft_char_last_n.dir/clean:
-	$(MAKE) -f CMakeFiles/ft_char_last_n.dir/build.make CMakeFiles/ft_char_last_n.dir/clean
-.PHONY : CMakeFiles/ft_char_last_n.dir/clean
+.PHONY : ft_list_to_arr
 
 # clean rule for target.
-clean: CMakeFiles/ft_char_last_n.dir/clean
+CMakeFiles/ft_list_to_arr.dir/clean:
+	$(MAKE) -f CMakeFiles/ft_list_to_arr.dir/build.make CMakeFiles/ft_list_to_arr.dir/clean
+.PHONY : CMakeFiles/ft_list_to_arr.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ft_list_to_arr.dir/clean
 
 .PHONY : clean
 

@@ -1,26 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_clear_array.c                                   :+:      :+:    :+:   */
+/*   ft_reasign.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sladonia <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/02/27 12:52:40 by sladonia          #+#    #+#             */
-/*   Updated: 2017/02/27 12:52:42 by sladonia         ###   ########.fr       */
+/*   Created: 2017/03/04 17:46:22 by sladonia          #+#    #+#             */
+/*   Updated: 2017/03/04 17:46:24 by sladonia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_clear_arr(char ***s)
+char	*ft_reasign(char *this, char *new, int free_new)
 {
-	int i;
+	char *tmp;
 
-	if (!s || !(*s))
-		return ;
-	i = -1;
-	while ((*s)[++i])
-		free((*s)[i]);
-	free(*s);
-	*s = NULL;
+	tmp = ft_strdup(new);
+	free(this);
+	if (free_new)
+		free(new);
+	return (tmp);
 }

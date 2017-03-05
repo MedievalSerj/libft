@@ -62,6 +62,10 @@ libft.h
 libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 
+/nfs/2016/s/sladonia/my_repo/libft/ft_lst_to_arr.c
+libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
+
 /nfs/2016/s/sladonia/my_repo/libft/ft_lstadd.c
 libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
@@ -159,6 +163,10 @@ libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 
 /nfs/2016/s/sladonia/my_repo/libft/ft_readline.c
+libft.h
+/nfs/2016/s/sladonia/my_repo/libft/libft.h
+
+/nfs/2016/s/sladonia/my_repo/libft/ft_reasign.c
 libft.h
 /nfs/2016/s/sladonia/my_repo/libft/libft.h
 

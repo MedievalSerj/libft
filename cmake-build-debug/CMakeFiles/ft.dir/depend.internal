@@ -46,6 +46,9 @@ CMakeFiles/ft.dir/ft_itoa.c.o
 CMakeFiles/ft.dir/ft_list_dir.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_list_dir.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o
+ /nfs/2016/s/sladonia/my_repo/libft/ft_lst_to_arr.c
+ /nfs/2016/s/sladonia/my_repo/libft/libft.h
 CMakeFiles/ft.dir/ft_lstadd.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_lstadd.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
@@ -120,6 +123,9 @@ CMakeFiles/ft.dir/ft_putstr_fd.c.o
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
 CMakeFiles/ft.dir/ft_readline.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_readline.c
+ /nfs/2016/s/sladonia/my_repo/libft/libft.h
+CMakeFiles/ft.dir/ft_reasign.c.o
+ /nfs/2016/s/sladonia/my_repo/libft/ft_reasign.c
  /nfs/2016/s/sladonia/my_repo/libft/libft.h
 CMakeFiles/ft.dir/ft_str_append.c.o
  /nfs/2016/s/sladonia/my_repo/libft/ft_str_append.c

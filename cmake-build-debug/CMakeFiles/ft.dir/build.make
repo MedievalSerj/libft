@@ -2409,6 +2409,54 @@ CMakeFiles/ft.dir/ft_char_last_n.c.o.provides: CMakeFiles/ft.dir/ft_char_last_n.
 CMakeFiles/ft.dir/ft_char_last_n.c.o.provides.build: CMakeFiles/ft.dir/ft_char_last_n.c.o
 
 
+CMakeFiles/ft.dir/ft_reasign.c.o: CMakeFiles/ft.dir/flags.make
+CMakeFiles/ft.dir/ft_reasign.c.o: ../ft_reasign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/ft.dir/ft_reasign.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft.dir/ft_reasign.c.o   -c /nfs/2016/s/sladonia/my_repo/libft/ft_reasign.c
+
+CMakeFiles/ft.dir/ft_reasign.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft.dir/ft_reasign.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/s/sladonia/my_repo/libft/ft_reasign.c > CMakeFiles/ft.dir/ft_reasign.c.i
+
+CMakeFiles/ft.dir/ft_reasign.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft.dir/ft_reasign.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/s/sladonia/my_repo/libft/ft_reasign.c -o CMakeFiles/ft.dir/ft_reasign.c.s
+
+CMakeFiles/ft.dir/ft_reasign.c.o.requires:
+
+.PHONY : CMakeFiles/ft.dir/ft_reasign.c.o.requires
+
+CMakeFiles/ft.dir/ft_reasign.c.o.provides: CMakeFiles/ft.dir/ft_reasign.c.o.requires
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_reasign.c.o.provides.build
+.PHONY : CMakeFiles/ft.dir/ft_reasign.c.o.provides
+
+CMakeFiles/ft.dir/ft_reasign.c.o.provides.build: CMakeFiles/ft.dir/ft_reasign.c.o
+
+
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o: CMakeFiles/ft.dir/flags.make
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o: ../ft_lst_to_arr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/ft.dir/ft_lst_to_arr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft.dir/ft_lst_to_arr.c.o   -c /nfs/2016/s/sladonia/my_repo/libft/ft_lst_to_arr.c
+
+CMakeFiles/ft.dir/ft_lst_to_arr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft.dir/ft_lst_to_arr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/s/sladonia/my_repo/libft/ft_lst_to_arr.c > CMakeFiles/ft.dir/ft_lst_to_arr.c.i
+
+CMakeFiles/ft.dir/ft_lst_to_arr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft.dir/ft_lst_to_arr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/s/sladonia/my_repo/libft/ft_lst_to_arr.c -o CMakeFiles/ft.dir/ft_lst_to_arr.c.s
+
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o.requires:
+
+.PHONY : CMakeFiles/ft.dir/ft_lst_to_arr.c.o.requires
+
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o.provides: CMakeFiles/ft.dir/ft_lst_to_arr.c.o.requires
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_lst_to_arr.c.o.provides.build
+.PHONY : CMakeFiles/ft.dir/ft_lst_to_arr.c.o.provides
+
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o.provides.build: CMakeFiles/ft.dir/ft_lst_to_arr.c.o
+
+
 # Object files for target ft
 ft_OBJECTS = \
 "CMakeFiles/ft.dir/ft_atoi.c.o" \
@@ -2508,7 +2556,9 @@ ft_OBJECTS = \
 "CMakeFiles/ft.dir/l_count.c.o" \
 "CMakeFiles/ft.dir/l_add_last.c.o" \
 "CMakeFiles/ft.dir/ft_clear_array.c.o" \
-"CMakeFiles/ft.dir/ft_char_last_n.c.o"
+"CMakeFiles/ft.dir/ft_char_last_n.c.o" \
+"CMakeFiles/ft.dir/ft_reasign.c.o" \
+"CMakeFiles/ft.dir/ft_lst_to_arr.c.o"
 
 # External object files for target ft
 ft_EXTERNAL_OBJECTS =
@@ -2611,9 +2661,11 @@ libft.a: CMakeFiles/ft.dir/l_count.c.o
 libft.a: CMakeFiles/ft.dir/l_add_last.c.o
 libft.a: CMakeFiles/ft.dir/ft_clear_array.c.o
 libft.a: CMakeFiles/ft.dir/ft_char_last_n.c.o
+libft.a: CMakeFiles/ft.dir/ft_reasign.c.o
+libft.a: CMakeFiles/ft.dir/ft_lst_to_arr.c.o
 libft.a: CMakeFiles/ft.dir/build.make
 libft.a: CMakeFiles/ft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Linking C static library libft.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/s/sladonia/my_repo/libft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking C static library libft.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/ft.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft.dir/link.txt --verbose=$(VERBOSE)
 
@@ -2720,6 +2772,8 @@ CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/l_count.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/l_add_last.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_clear_array.c.o.requires
 CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_char_last_n.c.o.requires
+CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_reasign.c.o.requires
+CMakeFiles/ft.dir/requires: CMakeFiles/ft.dir/ft_lst_to_arr.c.o.requires
 
 .PHONY : CMakeFiles/ft.dir/requires
 

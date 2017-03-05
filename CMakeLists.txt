@@ -101,9 +101,11 @@ set(SOURCE_FILES
 		l_count.c
 		l_add_last.c
 		ft_clear_array.c
-		ft_char_last_n.c)
+		ft_char_last_n.c
+		ft_reasign.c
+		ft_lst_to_arr.c)
 
-add_executable(ft_char_last_n ft_char_last_n.c ${SOURCE_FILES})
+add_executable(ft_list_to_arr ${SOURCE_FILES})
 
 add_library(ft ${SOURCE_FILES})
 target_link_libraries(ft)

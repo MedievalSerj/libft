@@ -97,6 +97,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft.dir/l_add_last.c.o"
   "CMakeFiles/ft.dir/ft_clear_array.c.o"
   "CMakeFiles/ft.dir/ft_char_last_n.c.o"
+  "CMakeFiles/ft.dir/ft_reasign.c.o"
+  "CMakeFiles/ft.dir/ft_lst_to_arr.c.o"
   "libft.pdb"
   "libft.a"
 )

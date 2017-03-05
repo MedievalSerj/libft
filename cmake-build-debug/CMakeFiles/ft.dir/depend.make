@@ -46,6 +46,9 @@ CMakeFiles/ft.dir/ft_itoa.c.o: ../libft.h
 CMakeFiles/ft.dir/ft_list_dir.c.o: ../ft_list_dir.c
 CMakeFiles/ft.dir/ft_list_dir.c.o: ../libft.h
 
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o: ../ft_lst_to_arr.c
+CMakeFiles/ft.dir/ft_lst_to_arr.c.o: ../libft.h
+
 CMakeFiles/ft.dir/ft_lstadd.c.o: ../ft_lstadd.c
 CMakeFiles/ft.dir/ft_lstadd.c.o: ../libft.h
 
@@ -120,6 +123,9 @@ CMakeFiles/ft.dir/ft_putstr_fd.c.o: ../libft.h
 
 CMakeFiles/ft.dir/ft_readline.c.o: ../ft_readline.c
 CMakeFiles/ft.dir/ft_readline.c.o: ../libft.h
+
+CMakeFiles/ft.dir/ft_reasign.c.o: ../ft_reasign.c
+CMakeFiles/ft.dir/ft_reasign.c.o: ../libft.h
 
 CMakeFiles/ft.dir/ft_str_append.c.o: ../ft_str_append.c
 CMakeFiles/ft.dir/ft_str_append.c.o: ../libft.h
